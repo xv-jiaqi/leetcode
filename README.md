@@ -138,7 +138,7 @@
 |0118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)                                 |TODO|Easy      |
 |0119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)                           |TODO|Easy      |
 |0120|[Triangle](https://leetcode.com/problems/triangle)                                                  |TODO|Medium    |
-|0121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)    |TODO|Easy      |
+|0121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)    |[Python](./answer/0121)|Easy      |
 |0122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|TODO|Easy      |
 |0123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii)|TODO|Hard      |
 |0124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)          |TODO|Hard      |
