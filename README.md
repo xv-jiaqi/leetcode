@@ -6,7 +6,7 @@
 
 [TOC]
 
-**初次下载仓库后需要执行 `sh build.sh`.**
+**初次下载仓库后需要执行 `sh init-hook.sh`.**
 
 提交规则 :exclamation::exclamation::exclamation:：<br>
 - **在 `./answer/` 目录下提交答案即可，目录名为问题 `ID`，长度为4个字符，不符合规则的提交会被阻止**；

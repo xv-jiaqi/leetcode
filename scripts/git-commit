@@ -1,0 +1,5 @@
+#！/usr/bash
+
+echo "git-commit is running ..."
+
+node ./scripts/main.js

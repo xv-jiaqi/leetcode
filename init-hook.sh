@@ -1,6 +1,6 @@
 #！/usr/bash
 
-cp ./scripts/main.js .git/hooks/pre-commit
+cp ./scripts/git-commit .git/hooks/pre-commit
 
 chmod 777 .git/hooks/pre-commit
 

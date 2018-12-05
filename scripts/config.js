@@ -7,7 +7,7 @@ const idPad = 4, titlePad = 100, answerPad = 25, difficultyPad = 10;
 module.exports = {
   originPath: 'https://leetcode.com/api/problems/all/',
 
-  readmeFile: '../README.md',
+  readmeFile: './README.md',
   insertPoint: /(?<=<!--.*start.*-->)[\s\S]*(?=<!--.*end.*-->)/gm,
   tplHeader,
   padding: {
@@ -19,5 +19,5 @@ module.exports = {
     cn: 'https://leetcode-cn.com/problems/',
   },
 
-  answerDir: '../answer/'
+  answerDir: './answer/'
 };

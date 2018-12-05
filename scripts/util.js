@@ -20,9 +20,14 @@ const LEVEL_MAP = {
     3: 'Hard',
 };
 
+/**
+ * DirList
+ */
 class DirList {
   constructor(path = './') {
     this.path = resolve(path);
+    console.log(this.path);
+
     this.getDirList();
   }
 
@@ -69,10 +74,11 @@ class DirList {
   }
 }
 
+/**
+ * Http
+ */
 class Http {
-  constructor() {
-
-  }
+  constructor() {}
 
   get(url) {
     return new Promise((resolve, reject) => {
@@ -104,7 +110,8 @@ class Http {
  * @param title
  * @param camelCase
  * @param difficulty
- * @param solutionsList
+ * @param solutionList
+ * @param solutionListFileTypes
  * @param padding
  * @returns {string}
  */
