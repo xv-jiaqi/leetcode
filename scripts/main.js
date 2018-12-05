@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 const { readFileSync, writeFile } = require('fs');
 const { DirList, Http, rowTpl, appendFile, log } = require('./util');
 
@@ -10,7 +9,7 @@ const {
   tplHeader,
   padding,
 
-  answerDir
+  answerDir,
 } = require('./config');
 
 const http = new Http();
