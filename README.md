@@ -18,25 +18,25 @@
 <!-- start -->
 | ID | Title | Answer | Difficulty |
 |:--:|:------|:------:|:----------:|
-|0001|[Two Sum](https://leetcode.com/problems/two-sum)                                                    |TODO|Easy      |
-|0002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)                                    |TODO|Medium    |
-|0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|TODO|Medium    |
-|0004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)            |TODO|Hard      |
-|0005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)        |TODO|Medium    |
-|0006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)                                |TODO|Medium    |
-|0007|[Reverse Integer](https://leetcode.com/problems/reverse-integer)                                    |TODO|Easy      |
-|0008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)                    |TODO|Medium    |
-|0009|[Palindrome Number](https://leetcode.com/problems/palindrome-number)                                |TODO|Easy      |
-|0010|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching)            |TODO|Hard      |
-|0011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water)                |TODO|Medium    |
-|0012|[Integer to Roman](https://leetcode.com/problems/integer-to-roman)                                  |TODO|Medium    |
-|0013|[Roman to Integer](https://leetcode.com/problems/roman-to-integer)                                  |TODO|Easy      |
-|0014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)                        |TODO|Easy      |
-|0015|[3Sum](https://leetcode.com/problems/3sum)                                                          |TODO|Medium    |
-|0016|[3Sum Closest](https://leetcode.com/problems/3sum-closest)                                          |TODO|Medium    |
-|0017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|TODO|Medium    |
-|0018|[4Sum](https://leetcode.com/problems/4sum)                                                          |TODO|Medium    |
-|0019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)  |TODO|Medium    |
+|0001|[Two Sum](https://leetcode.com/problems/two-sum)                                                    |[JavaScript](./answer/0001)|Easy      |
+|0002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)                                    |[JavaScript](./answer/0002)|Medium    |
+|0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[JavaScript](./answer/0003)|Medium    |
+|0004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)            |[JavaScript](./answer/0004)|Hard      |
+|0005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)        |[JavaScript](./answer/0005)|Medium    |
+|0006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)                                |[JavaScript](./answer/0006)|Medium    |
+|0007|[Reverse Integer](https://leetcode.com/problems/reverse-integer)                                    |[JavaScript](./answer/0007)|Easy      |
+|0008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)                    |[JavaScript](./answer/0008)|Medium    |
+|0009|[Palindrome Number](https://leetcode.com/problems/palindrome-number)                                |[JavaScript](./answer/0009)|Easy      |
+|0010|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching)            |[JavaScript](./answer/0010)|Hard      |
+|0011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water)                |[JavaScript](./answer/0011)|Medium    |
+|0012|[Integer to Roman](https://leetcode.com/problems/integer-to-roman)                                  |[JavaScript](./answer/0012)|Medium    |
+|0013|[Roman to Integer](https://leetcode.com/problems/roman-to-integer)                                  |[JavaScript](./answer/0013)|Easy      |
+|0014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)                        |[JavaScript](./answer/0014)|Easy      |
+|0015|[3Sum](https://leetcode.com/problems/3sum)                                                          |[JavaScript](./answer/0015)|Medium    |
+|0016|[3Sum Closest](https://leetcode.com/problems/3sum-closest)                                          |[JavaScript](./answer/0016)|Medium    |
+|0017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[JavaScript](./answer/0017)|Medium    |
+|0018|[4Sum](https://leetcode.com/problems/4sum)                                                          |[JavaScript](./answer/0018)|Medium    |
+|0019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)  |[JavaScript](./answer/0019)|Medium    |
 |0020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses)                                |[JavaScript](./answer/0020)|Easy      |
 |0021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)                      |TODO|Easy      |
 |0022|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)                          |TODO|Medium    |
