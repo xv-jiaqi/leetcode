@@ -708,7 +708,7 @@
 |0723|[Candy Crush](https://leetcode.com/problems/candy-crush)                                            |TODO|Medium    |
 |0724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index)                                  |TODO|Easy      |
 |0725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts)              |TODO|Medium    |
-|0726|[Number of Atoms](https://leetcode.com/problems/number-of-atoms)                                    |TODO|Hard      |
+|0726|[Number of Atoms](https://leetcode.com/problems/number-of-atoms)                                    |[Python](./answer/0726)|Hard      |
 |0727|[Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence)              |TODO|Hard      |
 |0728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers)                        |TODO|Easy      |
 |0729|[My Calendar I](https://leetcode.com/problems/my-calendar-i)                                        |TODO|Medium    |
