@@ -1,6 +1,6 @@
-const {  resolve } = require('path');
-const { readdirSync, statSync} = require('fs');
-const { get: GET} = require('https');
+const { resolve } = require('path');
+const { readdirSync, statSync } = require('fs');
+const { get: GET } = require('https');
 
 const preLink = 'https://leetcode.com/problems/';
 
@@ -16,8 +16,8 @@ const TYPE_MAP = {
 
 const LEVEL_MAP = {
   1: 'Easy',
-    2: 'Medium',
-    3: 'Hard',
+  2: 'Medium',
+  3: 'Hard',
 };
 
 /**
