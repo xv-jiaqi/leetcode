@@ -753,7 +753,7 @@
 |0768|[Partition Labels](https://leetcode.com/problems/partition-labels)                                  |TODO|Medium    |
 |0769|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign)                                |TODO|Medium    |
 |0770|[Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands)                        |TODO|Hard      |
-|0771|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree)  |TODO|Hard      |
+|0771|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree)  |[Python](./answer/0771)|Hard      |
 |0772|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree)                            |TODO|Easy      |
 |0773|[Quad Tree Intersection](https://leetcode.com/problems/quad-tree-intersection)                      |TODO|Easy      |
 |0774|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree)            |TODO|Easy      |
