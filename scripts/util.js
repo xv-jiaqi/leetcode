@@ -152,7 +152,7 @@ class Http extends Storage{
 
         resp.on('end', () => {
           log('HTTP get: ', 'SUCCESS!');
-          const _data = data.toString();
+          const _data = parse(data.toString());
 
           resolve(_data);
 

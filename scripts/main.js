@@ -18,7 +18,7 @@ const originQuestions = http.get(originPath, { maxAge: 3600 * 24 * 7});
 const answerDirs = new DirList(answerDir);
 
 originQuestions.then(resp => {
-  const { stat_status_pairs: questionList } = JSON.parse(resp);
+  const { stat_status_pairs: questionList } = resp;
 
   const tplText = questionList
     .sort((p, c) => p.stat.question_id - c.stat.question_id)
