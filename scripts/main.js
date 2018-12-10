@@ -1,6 +1,16 @@
 const { readFileSync, writeFile } = require('fs');
 const { DirList, Http, rowTpl, appendFile, log } = require('./util');
 
+console.log('running');
+
+// setTimeout(() => console.log('5s'), 5000);
+for (let i = 50000; i--; ) {
+  console.log(i)
+}
+
+
+return;
+
 const {
   originPath,
 
