@@ -20,7 +20,7 @@
 |:--:|:------|:------:|:----------:|
 |0001|[Two Sum](https://leetcode.com/problems/two-sum)                                                    |[JavaScript](./answer/0001)|Easy      |
 |0002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)                                    |[JavaScript](./answer/0002)|Medium    |
-|0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[JavaScript](./answer/0003)|Medium    |
+|0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[JavaScript](./answer/0003), [Python](./answer/0003)|Medium    |
 |0004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)            |[JavaScript](./answer/0004), [Python](./answer/0004)|Hard      |
 |0005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)        |[JavaScript](./answer/0005)|Medium    |
 |0006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)                                |[JavaScript](./answer/0006)|Medium    |
