@@ -7,7 +7,7 @@ console.log('running');
 const http1 = new Http();
 const fetch = http1.get('https://api.github.com/');
 
-fetch.then(res => res.json()).then(res => console.log(res))
+fetch.then(res => console.log(res))
 
 
 return;
