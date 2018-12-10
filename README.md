@@ -890,7 +890,7 @@
 |0912|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight)                    |TODO|Medium    |
 |0913|[Random Flip Matrix](https://leetcode.com/problems/random-flip-matrix)                              |TODO|Medium    |
 |0914|[Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles)|[Python](./answer/0914)|Medium    |
-|0915|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle)|TODO|Medium    |
+|0915|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle)|[JavaScript](./answer/0915)|Medium    |
 |0916|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index)                    |TODO|Medium    |
 |0917|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people)                          |TODO|Medium    |
 |0918|[Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph)|TODO|Hard      |
@@ -962,6 +962,10 @@
 |0986|[Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits)        |TODO|Easy      |
 |0987|[Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order)  |TODO|Medium    |
 |0988|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees)          |TODO|Medium    |
-|0989|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor)|TODO|Hard      |<!-- end -->
+|0989|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor)|TODO|Hard      |
+|0990|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary)        |TODO|Easy      |
+|0991|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs)                      |TODO|Medium    |
+|0992|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)  |TODO|Medium    |
+|0993|[Tallest Billboard](https://leetcode.com/problems/tallest-billboard)                                |TODO|Hard      |<!-- end -->
 
 [回到顶部 :top:](#readme)

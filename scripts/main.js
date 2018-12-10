@@ -1,17 +1,6 @@
 const { readFileSync, writeFile } = require('fs');
 const { DirList, Http, rowTpl, appendFile, log } = require('./util');
 
-console.log('running');
-
-// setTimeout(() => console.log('5s'), 5000);
-const http1 = new Http();
-const fetch = http1.get('https://api.github.com/');
-
-fetch.then(res => console.log(res))
-
-
-return;
-
 const {
   originPath,
 
@@ -24,7 +13,7 @@ const {
 } = require('./config');
 
 const http = new Http();
-const originQuestions = http.get(originPath);
+const originQuestions = http.get(originPath, { maxAge: 3600 * 24 * 7});
 
 const answerDirs = new DirList(answerDir);
 

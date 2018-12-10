@@ -1,5 +1,6 @@
 # webstorm
 .idea/
+.cache
 
 # Logs
 logs
