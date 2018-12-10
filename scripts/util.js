@@ -3,7 +3,6 @@ const { writeFile, readFileSync, readdirSync, statSync, existsSync } = require('
 const { get: GET } = require('https');
 const { stringify, parse } = JSON;
 
-
 const preLink = 'https://leetcode.com/problems/';
 
 const TYPE_MAP = {
@@ -140,6 +139,7 @@ class Http extends Storage{
 
   get(url, { maxAge}) {
     if (maxAge && super.getItem(url)) {
+      console.log(super.getItem(url));
       return Promise.resolve(super.getItem(url));
     }
 
