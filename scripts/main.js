@@ -4,7 +4,10 @@ const { DirList, Http, rowTpl, appendFile, log } = require('./util');
 console.log('running');
 
 // setTimeout(() => console.log('5s'), 5000);
-fetch('https://api.github.com/').then(res => res.json()).then(res => console.log(res))
+const http1 = new Http();
+const fetch = http1.get('https://api.github.com/');
+
+fetch.then(res => res.json()).then(res => console.log(res))
 
 
 return;
