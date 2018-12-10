@@ -21,7 +21,7 @@
 |0001|[Two Sum](https://leetcode.com/problems/two-sum)                                                    |[JavaScript](./answer/0001)|Easy      |
 |0002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)                                    |[JavaScript](./answer/0002)|Medium    |
 |0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[JavaScript](./answer/0003)|Medium    |
-|0004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)            |[JavaScript](./answer/0004)|Hard      |
+|0004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)            |[JavaScript](./answer/0004), [Python](./answer/0004)|Hard      |
 |0005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)        |[JavaScript](./answer/0005)|Medium    |
 |0006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)                                |[JavaScript](./answer/0006)|Medium    |
 |0007|[Reverse Integer](https://leetcode.com/problems/reverse-integer)                                    |[JavaScript](./answer/0007)|Easy      |
@@ -962,6 +962,10 @@
 |0986|[Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits)        |TODO|Easy      |
 |0987|[Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order)  |TODO|Medium    |
 |0988|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees)          |TODO|Medium    |
-|0989|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor)|TODO|Hard      |<!-- end -->
+|0989|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor)|TODO|Hard      |
+|0990|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary)        |TODO|Easy      |
+|0991|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs)                      |TODO|Medium    |
+|0992|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)  |TODO|Medium    |
+|0993|[Tallest Billboard](https://leetcode.com/problems/tallest-billboard)                                |TODO|Hard      |<!-- end -->
 
 [回到顶部 :top:](#readme)
