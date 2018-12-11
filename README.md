@@ -364,7 +364,7 @@
 |0344|[Reverse String](https://leetcode.com/problems/reverse-string)                                      |TODO|Easy      |
 |0345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)              |TODO|Easy      |
 |0346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream)    |TODO|Easy      |
-|0347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)                    |TODO|Medium    |
+|0347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)                    |[Python](./answer/0347)|Medium    |
 |0348|[Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe)                              |TODO|Medium    |
 |0349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)              |TODO|Easy      |
 |0350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)        |[JavaScript](./answer/0350)|Easy      |
