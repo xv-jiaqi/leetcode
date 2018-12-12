@@ -139,7 +139,6 @@ class Http extends Storage{
 
   get(url, { maxAge}) {
     if (maxAge && super.getItem(url)) {
-      console.log(123);
       return Promise.resolve(super.getItem(url));
     }
 

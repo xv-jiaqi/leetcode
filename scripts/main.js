@@ -13,7 +13,7 @@ const {
 } = require('./config');
 
 const http = new Http();
-const originQuestions = http.get(originPath, { maxAge: 3600 * 24 * 7});
+const originQuestions = http.get(originPath, { maxAge: 3600 * 24 * 7 });
 
 const answerDirs = new DirList(answerDir);
 
