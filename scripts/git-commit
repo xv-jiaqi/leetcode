@@ -1,18 +1,17 @@
 #！/usr/bash
 
-echo "git-commit is running ..."
-
-git log -1 --pretty --oneline > ./scripts/.cache-log;
-
-preTag=`cat ./scripts/.cache-log | grep -Eio "^\w+\b"`;
-preMsg=`cat ./scripts/.cache-log | grep -Eio "\>.*$"`;
-
-rm -rf ./scripts/.cache-log
+echo "Git-hook is running ..."
 
 # sync execution
 node ./scripts/main.js
 
-git add .
-git commit –-amend
+git diff --name-only > ./scripts/.cache-log
 
-# git diff --name-only > ./scripts/.cache-log
+diffFile=`cat ./scripts/.cache-log | grep -Eio "\S+\.(md|MD)"`
+
+if [ -n "$diffFile" ]; then
+  git add $diffFile
+  git commit --amend --no-edit
+fi
+
+rm ./scripts/.cache-log
