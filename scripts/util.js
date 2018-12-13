@@ -1,11 +1,13 @@
-const { resolve, join } = require('path');
-const { writeFile, readFileSync, readdirSync, statSync, existsSync } = require('fs');
-const { get: GET } = require('https');
-const { stringify, parse } = JSON;
+const {resolve, join} = require('path');
+const {writeFile, readFileSync, readdirSync, statSync, existsSync} = require('fs');
+const {get: GET, request: REQUEST} = require('https');
+const {stringify, parse} = JSON;
+const {parse: urlParse} = require('url');
 
 const preLink = 'https://leetcode.com/problems/';
 
-const TYPE_MAP = {
+
+const FILE_TYPE_MAP = {
   'js': 'JavaScript',
   'ts': 'TypeScript',
   'py': 'Python',
@@ -20,8 +22,9 @@ const LEVEL_MAP = {
   2: 'Medium',
   3: 'Hard',
 };
+
 class Storage {
-  constructor(){
+  constructor() {
     this.fileName = join(__dirname, '.cache');
 
     if (!existsSync(this.fileName)) {
@@ -37,7 +40,7 @@ class Storage {
     this.init();
   }
 
-  init () {
+  init() {
     const _current = new Date();
 
     for (const [key, {expires}] of Object.entries(this.cacheData)) {
@@ -55,7 +58,7 @@ class Storage {
 
   setItem(key, val, maxAge) {
     const _data = {
-      data:  val,
+      data: val,
       expires: new Date(Date.now() + maxAge * 1000),
     };
 
@@ -78,12 +81,12 @@ class Storage {
 /**
  * Http
  */
-class Http extends Storage{
+class Http extends Storage {
   constructor() {
     super();
   }
 
-  get(url, { maxAge}) {
+  get(url, {maxAge} = {}) {
     if (maxAge && super.getItem(url)) {
       return Promise.resolve(super.getItem(url));
     }
@@ -94,7 +97,7 @@ class Http extends Storage{
 
         let data = '';
 
-        resp.on('data', (chunk) => data += chunk);
+        resp.on('data', chunk => data += chunk);
 
         resp.on('end', () => {
           log('HTTP get: ', 'SUCCESS!');
@@ -107,14 +110,43 @@ class Http extends Storage{
           }
         });
 
-      }).on('error', (err) => {
+      }).on('error', err => {
         log('HTTP get: ', 'FAILED!');
-        reject(err)
+        reject(err);
       });
     });
   }
 
-  post() {}
+  request(urlOpt, opts = {}) {
+    let options;
+    if (typeof urlOpt === 'string') {
+      options = Object.assign(urlParse(urlOpt), opts);
+    }
+
+    return new Promise((resolve, reject) => {
+      let data = '';
+
+      const req = REQUEST(options, resp => {
+        resp.on('data', chunk => {
+          data += chunk;
+        });
+
+        resp.on('end', () => {
+          log('HTTP request: ', 'SUCCESS!');
+          const _data = parse(data.toString());
+
+          resolve(_data);
+        });
+      });
+
+      req.on('error', err => {
+        log('HTTP request: ', 'FAILED!');
+        reject(err);
+      });
+
+      req.end();
+    });
+  }
 }
 
 /**
@@ -154,7 +186,9 @@ class DirList {
       } else {
         const match = /(?<=.+\.)\w+/i.exec(d);
 
-        fileTypes.push(match ? match[0].toLowerCase() : d);
+        if (match && match[0].toLowerCase() in FILE_TYPE_MAP) {
+          fileTypes.push(match[0].toLowerCase());
+        }
       }
     });
 
@@ -183,31 +217,30 @@ class DirList {
  */
 function rowTpl({id, title, camelCase, difficulty, solutionList, solutionListFileTypes, padding}) {
 
-  const { idPad, titlePad, answerPad, difficultyPad } = padding;
+  const {idPad, titlePad, answerPad, difficultyPad} = padding;
 
   const _id = id.toString().padStart(idPad, '0'),
     _title = `[${title}](${preLink}${camelCase})`.padEnd(titlePad),
     _difficulty = LEVEL_MAP[difficulty].padEnd(difficultyPad),
     _solution = solutionList.includes(_id)
       ? solutionListFileTypes[_id]
-        .map(s => (s in TYPE_MAP) ? `[${TYPE_MAP[s]}](./answer/${_id})` : '')
+        .map(s => (s in FILE_TYPE_MAP) ? `[${FILE_TYPE_MAP[s]}](./answer/${_id})` : '')
         .filter(t => t)
         .join(', ')
       : `TODO`;
 
-    return `|${_id}|${_title}|${_solution}|${_difficulty}|`;
+  return `|${_id}|${_title}|${_solution}|${_difficulty}|`;
 }
 
 /**
- * Assembly readme.md
+ * appendFile
  * @param oldFileText
  * @param insertPoint
- * @param tplHeader
  * @param tplContent
  * @returns {string | * | void}
  */
-function appendFile(oldFileText, insertPoint, tplHeader, tplContent) {
-  return oldFileText.replace(insertPoint, `${tplHeader}${tplContent}`);
+function appendFile(oldFileText, insertPoint, tplContent) {
+  return oldFileText.replace(insertPoint, tplContent);
 }
 
 /**
@@ -220,10 +253,58 @@ function log(label, content, options) {
   console.log('\x1b[1m%s\x1b[31m%s\x1b[0m', label, content);
 }
 
+/**
+ * Template engine
+ * @param tpl
+ * @param data
+ * @returns {string}
+ */
+function render(tpl = '', data = {}) {
+  return tpl.replace(/\{\{(\S+?)\}\}/g, (match, p) => data[p]);
+}
+
+/**
+ * Beautify the string
+ * @param target
+ * @param [[], []]
+ * @returns {string | *}
+ */
+function padStrBeauty(target, [
+    [start = 0, symbolS = ' '] = [],
+    [end = 0, symbolE = ' '] = [],
+  ] = []) {
+
+  target = target.toString();
+
+  if (start) target = target.padStart(start, symbolS);
+  if (end) target = target.padEnd(end, symbolE);
+
+  return target;
+}
+
+/**
+ * Array flatten
+ * @param arr
+ * @returns {*}
+ */
+function arrayFlatten(arr = []) {
+  if ('flat' in Array.prototype) return Array.prototype.flat.call(arr);
+
+  while (arr.some(a => Array.isArray(a))) {
+    arr = [].concat(...arr);
+  }
+
+  return arr;
+}
+
 module.exports = {
   DirList,
   Http,
   rowTpl,
   appendFile,
   log,
+  render,
+  arrayFlatten,
+  padStrBeauty,
+  FILE_TYPE_MAP,
 };
