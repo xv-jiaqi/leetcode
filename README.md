@@ -2,6 +2,12 @@
 
 > Some [Leetcode](https://leetcode.com) algorithm and data structure answer wrote by Javascript/Python ... :100:.
 
+![Progress](http://progressed.io/bar/6)
+[![codebeat badge](https://codebeat.co/badges/348b71c8-c264-4483-a194-079ad959a6ed)](https://codebeat.co/projects/github-com-kkxujq-leetcode-master)
+[![GitHub issues](https://img.shields.io/github/issues/kkxujq/leetcode.svg)](https://github.com/kkxujq/leetcode/issues)
+[![GitHub stars](https://img.shields.io/github/stars/kkxujq/leetcode.svg)](https://github.com/kkxujq/leetcode/stargazers)
+[![GitHub license](https://img.shields.io/github/license/kkxujq/leetcode.svg)](https://github.com/kkxujq/leetcode/blob/master/LICENSE)
+
 ![leetcode](./scripts/leetcode-logo.png)
 
 [TOC]
@@ -9,9 +15,8 @@
 **初次下载仓库后需要执行 `sh init-hook.sh`.**
 
 提交规则 :exclamation::exclamation::exclamation:：<br>
-- **在 `./answer/` 目录下提交答案即可，目录名为问题 `ID`，长度为4个字符，不符合规则的提交会被阻止**；
-- `./answer/ID/` 下的 `README.md` 自述文件会自动创建（如存在则不覆盖)，也可手动维护；
-- `README` 中的记录表格无需手动维护，脚本会自动覆盖。
+- **在 `./answer/` 目录下提交答案即可，目录名为问题 `ID`**；
+- `README` 中的记录表格无需手动维护。
 
 ## QUESTIONS
 

@@ -33,7 +33,7 @@ class Storage {
       return this;
     }
 
-    this.cacheData = parse(readFileSync(this.fileName));
+    this.cacheData = parse(readFileSync(this.fileName).toString() || '{}');
     this.init();
   }
 
@@ -48,7 +48,7 @@ class Storage {
       }
     }
 
-    writeFile(this.fileName, stringify(this.cacheData, null, 4), err => {
+    writeFile(this.fileName, stringify(this.cacheData, null, 2), err => {
       if (err) throw err;
     });
   }
@@ -61,7 +61,7 @@ class Storage {
 
     this.cacheData[key] = _data;
 
-    writeFile(this.fileName, stringify(this.cacheData, null, 4), err => {
+    writeFile(this.fileName, stringify(this.cacheData, null, 2), err => {
       if (err) throw err;
     });
   }
@@ -76,12 +76,53 @@ class Storage {
 }
 
 /**
+ * Http
+ */
+class Http extends Storage{
+  constructor() {
+    super();
+  }
+
+  get(url, { maxAge}) {
+    if (maxAge && super.getItem(url)) {
+      return Promise.resolve(super.getItem(url));
+    }
+
+    return new Promise((resolve, reject) => {
+      GET(url, resp => {
+        log('HTTP get: ', url);
+
+        let data = '';
+
+        resp.on('data', (chunk) => data += chunk);
+
+        resp.on('end', () => {
+          log('HTTP get: ', 'SUCCESS!');
+          const _data = parse(data.toString());
+
+          resolve(_data);
+
+          if (maxAge) {
+            super.setItem(url, _data, maxAge);
+          }
+        });
+
+      }).on('error', (err) => {
+        log('HTTP get: ', 'FAILED!');
+        reject(err)
+      });
+    });
+  }
+
+  post() {}
+}
+
+/**
  * DirList
  */
 class DirList {
   constructor(path = './') {
     this.path = resolve(path);
-    console.log(this.path);
 
     this.getDirList();
   }
@@ -127,48 +168,6 @@ class DirList {
   isValid() {
     return this.dirList.every(id => id.length === 4);
   }
-}
-
-/**
- * Http
- */
-class Http extends Storage{
-  constructor() {
-    super();
-  }
-
-  get(url, { maxAge}) {
-    if (maxAge && super.getItem(url)) {
-      return Promise.resolve(super.getItem(url));
-    }
-
-    return new Promise((resolve, reject) => {
-      GET(url, resp => {
-        log('HTTP get: ', url);
-
-        let data = '';
-
-        resp.on('data', (chunk) => data += chunk);
-
-        resp.on('end', () => {
-          log('HTTP get: ', 'SUCCESS!');
-          const _data = parse(data.toString());
-
-          resolve(_data);
-
-          if (maxAge) {
-            super.setItem(url, _data, maxAge);
-          }
-        });
-
-      }).on('error', (err) => {
-        log('HTTP get: ', 'FAILED!');
-        reject(err)
-      });
-    });
-  }
-
-  post() {}
 }
 
 /**
