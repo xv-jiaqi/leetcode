@@ -1,5 +1,17 @@
 #！/usr/bash
 
-echo "git-commit is running ..."
+echo "Git-hook is running ..."
 
+# sync execution
 node ./scripts/main.js
+
+git diff --name-only > ./scripts/.cache-log
+
+diffFile=`cat ./scripts/.cache-log | grep -Eio "\S+\.(md|MD)"`
+
+if [ -n "$diffFile" ]; then
+  git add $diffFile
+  git commit --amend --no-edit
+fi
+
+rm ./scripts/.cache-log

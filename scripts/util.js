@@ -1,6 +1,7 @@
-const {  resolve } = require('path');
-const { readdirSync, statSync} = require('fs');
-const { get: GET} = require('https');
+const { resolve, join } = require('path');
+const { writeFile, readFileSync, readdirSync, statSync, existsSync } = require('fs');
+const { get: GET } = require('https');
+const { stringify, parse } = JSON;
 
 const preLink = 'https://leetcode.com/problems/';
 
@@ -16,9 +17,63 @@ const TYPE_MAP = {
 
 const LEVEL_MAP = {
   1: 'Easy',
-    2: 'Medium',
-    3: 'Hard',
+  2: 'Medium',
+  3: 'Hard',
 };
+class Storage {
+  constructor(){
+    this.fileName = join(__dirname, '.cache');
+
+    if (!existsSync(this.fileName)) {
+      writeFile(this.fileName, stringify({}), err => {
+        if (err) throw err;
+      });
+
+      this.cacheData = {};
+      return this;
+    }
+
+    this.cacheData = parse(readFileSync(this.fileName));
+    this.init();
+  }
+
+  init () {
+    const _current = new Date();
+
+    for (const [key, {expires}] of Object.entries(this.cacheData)) {
+      const _expires = new Date(expires);
+
+      if (_current >= _expires) {
+        delete this.cacheData[key];
+      }
+    }
+
+    writeFile(this.fileName, stringify(this.cacheData, null, 4), err => {
+      if (err) throw err;
+    });
+  }
+
+  setItem(key, val, maxAge) {
+    const _data = {
+      data:  val,
+      expires: new Date(Date.now() + maxAge * 1000),
+    };
+
+    this.cacheData[key] = _data;
+
+    writeFile(this.fileName, stringify(this.cacheData, null, 4), err => {
+      if (err) throw err;
+    });
+  }
+
+  getItem(key) {
+    if (!(key in this.cacheData)) {
+      return false;
+    }
+
+    return this.cacheData[key].data;
+  }
+}
 
 /**
  * DirList
@@ -77,10 +132,16 @@ class DirList {
 /**
  * Http
  */
-class Http {
-  constructor() {}
+class Http extends Storage{
+  constructor() {
+    super();
+  }
 
-  get(url) {
+  get(url, { maxAge}) {
+    if (maxAge && super.getItem(url)) {
+      return Promise.resolve(super.getItem(url));
+    }
+
     return new Promise((resolve, reject) => {
       GET(url, resp => {
         log('HTTP get: ', url);
@@ -91,7 +152,13 @@ class Http {
 
         resp.on('end', () => {
           log('HTTP get: ', 'SUCCESS!');
-          resolve(data.toString())
+          const _data = parse(data.toString());
+
+          resolve(_data);
+
+          if (maxAge) {
+            super.setItem(url, _data, maxAge);
+          }
         });
 
       }).on('error', (err) => {
