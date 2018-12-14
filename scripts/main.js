@@ -11,6 +11,7 @@ const contributors = http.request(contributor.originApi, {
 
 const answerDirs = new DirList(answerDir);
 const answerFileTypes = answerDirs.getFileTypes();
+const problemsList = problemsProcess();
 
 const pContributors = contributors.then(cons => {
   const { template, insertPoint } = contributor;
@@ -31,33 +32,7 @@ const pStatistics = Promise.resolve(statisticsProcess());
 const pStamp = stampProcess();
 const pProblems = problemProcess();
 
-async function readmeFn() {
-  let problemList;
-
-  try {
-    problemList = await problemsProcess();
-  } catch (e) {
-    throw e;
-  }
-
-  Object.keys(answerFileTypes).forEach(dir => {
-    const path = resolve(process.cwd(), 'answer', dir, 'README.md');
-
-    if (!existsSync(path)) {
-      const { camelCase } = problemList[+dir];
-
-      const tpl = render(readmeTemplate, { camelCase });
-
-      writeFile(path, tpl, err => {
-        if (err) throw err;
-      });
-    }
-  });
-}
-
-readmeFn().then(res => res);
-
-return;
+buildAnswerDocs();
 
 mountTemplate([pContributors, pProblems, pRank, pStatistics, pStamp]);
 
@@ -124,7 +99,7 @@ async function problemProcess() {
   let problemList;
 
   try {
-    problemList = await problemsProcess();
+    problemList = await problemsList;
   } catch (e) {
     throw e;
   }
@@ -171,7 +146,7 @@ async function statisticsProcess() {
   let problemList, easy = 0, medium = 0, hard = 0, total = 0;
 
   try {
-    problemList = await problemsProcess();
+    problemList = await problemsList;
   } catch (e) {
     throw e;
   }
@@ -227,4 +202,28 @@ async function problemsProcess() {
 
     return { id, title, camelCase, difficulty, solution };
   }).sort((pId, cId) => pId.id - cId.id);
+}
+
+async function buildAnswerDocs() {
+  let problemList;
+
+  try {
+    problemList = await problemsList;
+  } catch (e) {
+    throw e;
+  }
+
+  Object.keys(answerFileTypes).forEach(dir => {
+    const path = resolve(process.cwd(), 'answer', dir, 'README.md');
+
+    if (!existsSync(path)) {
+      const { camelCase } = problemList[+dir];
+
+      const tpl = render(readmeTemplate, { camelCase });
+
+      writeFile(path, tpl, err => {
+        if (err) throw err;
+      });
+    }
+  });
 }
