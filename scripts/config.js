@@ -2,8 +2,6 @@ const tplHeader = `
 | ID | Title | Answer | Difficulty |
 |:--:|:------|:------:|:----------:|\n`;
 
-const idPad = 4, titlePad = 100, answerPad = 25, difficultyPad = 10;
-
 module.exports = {
   answerDir: './answer/',
   readmeFile: './README.md',
@@ -12,10 +10,10 @@ module.exports = {
     originPath: 'https://leetcode.com/api/problems/all/',
     insertPoint: /(?<=<!--.*problemS.*-->)[\s\S]*(?=<!--.*problemE.*-->)/gm,
     template: '|{{id}}|[{{title}}](https://leetcode.com/problems/{{camelCase}})|[{{solutions}}](./answer/{{id}})|{{difficulty}}|',
-    tplHeader,
-    padding: {
-      idPad, titlePad, answerPad, difficultyPad
+    strPad: {
+      id: [[4, '0']],
     },
+    tplHeader,
   },
 
   statistics: {
@@ -44,5 +42,10 @@ module.exports = {
     },
     fillBar: 40,
     rankSymbol: ['🥇', '🥈', '🥉'],
+  },
+
+  stamp: {
+    insertPoint: /(?<=<!--.*stampS.*-->)[\s\S]*(?=<!--.*stampE.*-->)/gm,
+    template: '[![Progress](http://progressed.io/bar/{{count}}?title=done)](https://leetcode.com/problemset/all/)',
   }
 };

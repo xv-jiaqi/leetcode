@@ -205,34 +205,6 @@ class DirList {
 }
 
 /**
- * readme.md each row
- * @param id
- * @param title
- * @param camelCase
- * @param difficulty
- * @param solutionList
- * @param solutionListFileTypes
- * @param padding
- * @returns {string}
- */
-function rowTpl({id, title, camelCase, difficulty, solutionList, solutionListFileTypes, padding}) {
-
-  const {idPad, titlePad, answerPad, difficultyPad} = padding;
-
-  const _id = id.toString().padStart(idPad, '0'),
-    _title = `[${title}](${preLink}${camelCase})`.padEnd(titlePad),
-    _difficulty = LEVEL_MAP[difficulty].padEnd(difficultyPad),
-    _solution = solutionList.includes(_id)
-      ? solutionListFileTypes[_id]
-        .map(s => (s in FILE_TYPE_MAP) ? `[${FILE_TYPE_MAP[s]}](./answer/${_id})` : '')
-        .filter(t => t)
-        .join(', ')
-      : `TODO`;
-
-  return `|${_id}|${_title}|${_solution}|${_difficulty}|`;
-}
-
-/**
  * appendFile
  * @param oldFileText
  * @param insertPoint
@@ -307,4 +279,5 @@ module.exports = {
   arrayFlatten,
   padStrBeauty,
   FILE_TYPE_MAP,
+  LEVEL_MAP,
 };
