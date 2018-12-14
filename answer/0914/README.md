@@ -1,6 +1,3 @@
-
-Question: <br>
- - [中文](https://leetcode-cn.com/problems/914)
- - [English](https://leetcode.com/problems/914)
-
-[TOC]
+Problem: :link: 
+- [:cn:中文](https://leetcode-cn.com/problems/sort-array-by-parity-ii)
+- [:us:English](https://leetcode.com/problems/sort-array-by-parity-ii)

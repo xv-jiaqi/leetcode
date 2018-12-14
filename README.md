@@ -15,16 +15,14 @@
 
 ## Usage
 
-
-**`init-hook.sh` needs to be executed after the initial local repository: **
+**`init-hook.sh` needs to be executed after the initial local repository:**
 ```shell
 sh init-hook.sh
 ```
 
-Commit rule :exclamation::exclamation::exclamation:：<br>
+Commit rule :exclamation:：<br>
 - **Your solution can be placed in the `./answer/` directory, the directory name should be the problem `ID`**;
 - `README` does not need to be manually modified.
-
 
 ## Statistics
 <!-- statisticsS -->
@@ -35,8 +33,8 @@ Commit rule :exclamation::exclamation::exclamation:：<br>
 
 Rank:
 <!-- rankS -->
-> `🥇` JavaScript ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■&nbsp;&nbsp;&nbsp;&nbsp;32/55<br>
-> `🥈` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python ■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□&nbsp;&nbsp;&nbsp;&nbsp;23/55<br>
+> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□`32`/55<br>
+> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□`23`/55<br>
 <!-- rankE -->
 
 Contributors:

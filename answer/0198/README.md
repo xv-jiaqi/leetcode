@@ -1,6 +1,3 @@
-
-Question: <br>
-- [:es: 中文](https://leetcode-cn.com/problems/198)<br>
-- [:us: English](https://leetcode.com/problems/198)
-
-[TOC]
+Problem: :link: 
+- [:cn:中文](https://leetcode-cn.com/problems/binary-tree-right-side-view)
+- [:us:English](https://leetcode.com/problems/binary-tree-right-side-view)

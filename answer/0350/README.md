@@ -1,6 +1,3 @@
-
-Question: 
-[中文](https://leetcode-cn.com/problems/350)
-[English](https://leetcode.com/problems/350)
-
-[TOC]
+Problem: :link: 
+- [:cn:中文](https://leetcode-cn.com/problems/android-unlock-patterns)
+- [:us:English](https://leetcode.com/problems/android-unlock-patterns)

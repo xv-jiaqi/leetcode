@@ -1,6 +1,3 @@
-
-Question: 
-[中文](https://leetcode-cn.com/problems/551)
-[English](https://leetcode.com/problems/551)
-
-[TOC]
+Problem: :link: 
+- [:cn:中文](https://leetcode-cn.com/problems/subtree-of-another-tree)
+- [:us:English](https://leetcode.com/problems/subtree-of-another-tree)

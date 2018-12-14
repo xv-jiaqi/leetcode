@@ -21,7 +21,7 @@ const LEVEL_MAP = {
 };
 
 const symbolMap = {
-  ' ': '&nbsp;&nbsp;',
+  ' ': '&nbsp;&nbsp;&nbsp;&nbsp;',
 };
 
 const symbolScape = target => protect => symbolPart => target.replace(new RegExp(`[^${protect}]`, 'g'), symbolPart);
@@ -46,11 +46,11 @@ class Storage {
   init() {
     const _current = new Date();
 
-    for (const [ key, { expires } ] of Object.entries(this.cacheData)) {
+    for (const [key, { expires }] of Object.entries(this.cacheData)) {
       const _expires = new Date(expires);
 
       if (_current >= _expires) {
-        delete this.cacheData[ key ];
+        delete this.cacheData[key];
       }
     }
 
@@ -60,7 +60,7 @@ class Storage {
   }
 
   setItem(key, val, maxAge) {
-    this.cacheData[ key ] = {
+    this.cacheData[key] = {
       data: val,
       expires: new Date(Date.now() + maxAge * 1000),
     };
@@ -75,7 +75,7 @@ class Storage {
       return false;
     }
 
-    return this.cacheData[ key ].data;
+    return this.cacheData[key].data;
   }
 }
 
@@ -168,7 +168,7 @@ class DirList {
     const map = {};
 
     this.dirList.forEach(p => {
-      map[ p ] = DirList.getFileTypes(p, this.path);
+      map[p] = DirList.getFileTypes(p, this.path);
     });
 
     return map;
@@ -187,13 +187,13 @@ class DirList {
       } else {
         const match = /(?<=.+\.)\w+/i.exec(d);
 
-        if (match && match[ 0 ].toLowerCase() in FILE_TYPE_MAP) {
-          fileTypes.push(match[ 0 ].toLowerCase());
+        if (match && match[0].toLowerCase() in FILE_TYPE_MAP) {
+          fileTypes.push(match[0].toLowerCase());
         }
       }
     });
 
-    return [ ...new Set(fileTypes) ];
+    return [...new Set(fileTypes)];
   }
 
   getIds() {
@@ -233,7 +233,7 @@ function log(label, content, options) {
  * @returns {string}
  */
 function render(tpl = '', data = {}) {
-  return tpl.replace(/\{\{(\S+?)\}\}/g, (match, p) => data[ p ]);
+  return tpl.replace(/\{\{(\S+?)\}\}/g, (match, p) => data[p]);
 }
 
 /**
@@ -243,8 +243,8 @@ function render(tpl = '', data = {}) {
  * @returns {string | *}
  */
 function padStrBeauty(target, [
-  [ start = 0, symbolS = ' ' ] = [],
-  [ end = 0, symbolE = ' ' ] = [],
+  [start = 0, symbolS = ' '] = [],
+  [end = 0, symbolE = ' '] = [],
 ] = []) {
 
   target = target.toString();
@@ -257,10 +257,10 @@ function padStrBeauty(target, [
   }
 
   function padFn(target, padType, se, symbol) {
-    let _target = target[ padType ](se, symbol);
+    let _target = target[padType](se, symbol);
 
     if (symbol in symbolMap) {
-      _target = symbolScape(_target)(target)(symbolMap[ symbol ]);
+      _target = symbolScape(_target)(target)(symbolMap[symbol]);
     }
 
     return _target;

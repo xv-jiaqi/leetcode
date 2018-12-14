@@ -11,7 +11,7 @@ module.exports = {
     insertPoint: /(?<=<!--.*problemS.*-->)[\s\S]*(?=<!--.*problemE.*-->)/gm,
     template: '|{{id}}|[{{title}}](https://leetcode.com/problems/{{camelCase}})|[{{solutions}}](./answer/{{id}})|{{difficulty}}|',
     strPad: {
-      id: [ [ 4, '0' ] ],
+      id: [[4, '0']],
     },
     tplHeader,
   },
@@ -35,17 +35,21 @@ module.exports = {
 
   rank: {
     insertPoint: /(?<=<!--.*rankS.*-->)[\s\S]*(?=<!--.*rankE.*-->)/gm,
-    template: '> `{{ranking}}` {{lang}} {{solid}}{{blank}}{{count}}/{{total}}<br>',
+    template: '> {{ranking}} {{lang}} {{solid}}{{blank}}{{count}}/{{total}}<br>',
     strPad: {
-      lang: [ [ 10, ' ' ] ],
-      count: [ [ 4 ] ],
+      lang: [[10, ' ']],
+      count: [[4]],
     },
     fillBar: 40,
-    rankSymbol: [ '🥇', '🥈', '🥉' ],
+    rankSymbol: ['🥇', '🥈', '🥉'],
   },
 
   stamp: {
     insertPoint: /(?<=<!--.*stampS.*-->)[\s\S]*(?=<!--.*stampE.*-->)/gm,
     template: '[![Progress](http://progressed.io/bar/{{count}}?title=done)](https://leetcode.com/problemset/all/)',
   },
+
+  readmeTemplate: `Problem: :link: 
+- [:cn:中文](https://leetcode-cn.com/problems/{{camelCase}})
+- [:us:English](https://leetcode.com/problems/{{camelCase}})`,
 };

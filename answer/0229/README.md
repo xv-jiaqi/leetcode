@@ -1,6 +1,3 @@
-
-Question: 
-[中文](https://leetcode-cn.com/problems/229)
-[English](https://leetcode.com/problems/229)
-
-[TOC]
+Problem: :link: 
+- [:cn:中文](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst)
+- [:us:English](https://leetcode.com/problems/kth-smallest-element-in-a-bst)

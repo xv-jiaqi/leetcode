@@ -1,6 +1,7 @@
-const { readFileSync, writeFile } = require('fs');
+const { resolve, join } = require('path');
+const { readFileSync, writeFile, existsSync } = require('fs');
 const { DirList, Http, appendFile, log, render, arrayFlatten, padStrBeauty, FILE_TYPE_MAP, LEVEL_MAP } = require('./util');
-const { answerDir, readmeFile, problem, statistics, contributor, rank, stamp } = require('./config');
+const { answerDir, readmeFile, problem, statistics, contributor, rank, stamp, readmeTemplate } = require('./config');
 
 const http = new Http();
 const problems = http.get(problem.originPath, { maxAge: 3600 * 24 * 7 });
@@ -30,7 +31,35 @@ const pStatistics = Promise.resolve(statisticsProcess());
 const pStamp = stampProcess();
 const pProblems = problemProcess();
 
-mountTemplate([ pContributors, pProblems, pRank, pStatistics, pStamp ]);
+async function readmeFn() {
+  let problemList;
+
+  try {
+    problemList = await problemsProcess();
+  } catch (e) {
+    throw e;
+  }
+
+  Object.keys(answerFileTypes).forEach(dir => {
+    const path = resolve(process.cwd(), 'answer', dir, 'README.md');
+
+    if (!existsSync(path)) {
+      const { camelCase } = problemList[+dir];
+
+      const tpl = render(readmeTemplate, { camelCase });
+
+      writeFile(path, tpl, err => {
+        if (err) throw err;
+      });
+    }
+  });
+}
+
+readmeFn().then(res => res);
+
+return;
+
+mountTemplate([pContributors, pProblems, pRank, pStatistics, pStamp]);
 
 /**
  * mount template
@@ -60,27 +89,25 @@ function rankProcess() {
   const fileTypes = arrayFlatten(Object.values(answerFileTypes));
   const fillSymbol = '■', blankSymbol = '□', fileTotal = fileTypes.length;
 
-  const fileType = [ ...new Set(fileTypes) ]
-    .map(t => [ t, fileTypes.filter(f => f === t).length ])
-    .sort(([ , pCount ], [ , cCount ]) => cCount - pCount);
+  const fileType = [...new Set(fileTypes)]
+    .map(t => [t, fileTypes.filter(f => f === t).length])
+    .sort(([, pCount], [, cCount]) => cCount - pCount);
 
-  let rankList = fileType.map(([ lang, count ], index) => {
-    const ranking = rankSymbol[ index ] || index + 1;
+  let rankList = fileType.map(([lang, count], index) => {
+    const ranking = rankSymbol[index] || index + 1;
     let solid = fillBar, blank = '';
-    lang = FILE_TYPE_MAP[ lang ];
+    lang = FILE_TYPE_MAP[lang];
 
-    if (index > 0) {
-      solid = Math.ceil((count / fileTotal) * fillBar);
-      blank = fillBar - solid;
-    }
+    solid = Math.ceil((count / fileTotal) * fillBar);
+    blank = fillBar - solid;
 
     solid = fillSymbol.repeat(solid);
     blank = blankSymbol.repeat(blank);
 
     const srcData = { ranking, lang, solid, blank, count, total: fileTotal };
 
-    for (const [ target, padRule ] of Object.entries(strPad)) {
-      srcData[ target ] = padStrBeauty(srcData[ target ], padRule);
+    for (const [target, padRule] of Object.entries(strPad)) {
+      srcData[target] = padStrBeauty(`\`${srcData[target]}\``, padRule);
     }
 
     return render(template, srcData);
@@ -104,8 +131,8 @@ async function problemProcess() {
 
   const tpl = problemList.map(({ id, title, camelCase, difficulty, solution }) => {
     const srcData = { id, title, camelCase, difficulty, solutions: solution.join('<br>') };
-    for (const [ target, padRule ] of Object.entries(strPad)) {
-      srcData[ target ] = padStrBeauty(srcData[ target ], padRule);
+    for (const [target, padRule] of Object.entries(strPad)) {
+      srcData[target] = padStrBeauty(srcData[target], padRule);
     }
 
     return render(template, srcData);
@@ -192,10 +219,10 @@ async function problemsProcess() {
       difficulty: { level: difficulty },
     }) => {
 
-    difficulty = LEVEL_MAP[ difficulty ];
+    difficulty = LEVEL_MAP[difficulty];
     const padId = id.toString().padStart(4, '0');
     const solution = (padId in solutions)
-      ? solutions[ padId ].map(s => FILE_TYPE_MAP[ s ])
+      ? solutions[padId].map(s => FILE_TYPE_MAP[s])
       : [];
 
     return { id, title, camelCase, difficulty, solution };

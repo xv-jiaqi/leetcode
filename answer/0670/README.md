@@ -1,6 +1,3 @@
-
-Question: 
-[中文](https://leetcode-cn.com/problems/670)
-[English](https://leetcode.com/problems/670)
-
-[TOC]
+Problem: :link: 
+- [:cn:中文](https://leetcode-cn.com/problems/max-area-of-island)
+- [:us:English](https://leetcode.com/problems/max-area-of-island)
