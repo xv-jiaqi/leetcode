@@ -1,11 +1,8 @@
-const {resolve, join} = require('path');
-const {writeFile, readFileSync, readdirSync, statSync, existsSync} = require('fs');
-const {get: GET, request: REQUEST} = require('https');
-const {stringify, parse} = JSON;
-const {parse: urlParse} = require('url');
-
-const preLink = 'https://leetcode.com/problems/';
-
+const { resolve, join } = require('path');
+const { writeFile, readFileSync, readdirSync, statSync, existsSync } = require('fs');
+const { get: GET, request: REQUEST } = require('https');
+const { stringify, parse } = JSON;
+const { parse: urlParse } = require('url');
 
 const FILE_TYPE_MAP = {
   'js': 'JavaScript',
@@ -22,6 +19,12 @@ const LEVEL_MAP = {
   2: 'Medium',
   3: 'Hard',
 };
+
+const symbolMap = {
+  ' ': '&nbsp;&nbsp;',
+};
+
+const symbolScape = target => protect => symbolPart => target.replace(new RegExp(`[^${protect}]`, 'g'), symbolPart);
 
 class Storage {
   constructor() {
@@ -43,11 +46,11 @@ class Storage {
   init() {
     const _current = new Date();
 
-    for (const [key, {expires}] of Object.entries(this.cacheData)) {
+    for (const [ key, { expires } ] of Object.entries(this.cacheData)) {
       const _expires = new Date(expires);
 
       if (_current >= _expires) {
-        delete this.cacheData[key];
+        delete this.cacheData[ key ];
       }
     }
 
@@ -57,12 +60,10 @@ class Storage {
   }
 
   setItem(key, val, maxAge) {
-    const _data = {
+    this.cacheData[ key ] = {
       data: val,
       expires: new Date(Date.now() + maxAge * 1000),
     };
-
-    this.cacheData[key] = _data;
 
     writeFile(this.fileName, stringify(this.cacheData, null, 2), err => {
       if (err) throw err;
@@ -74,7 +75,7 @@ class Storage {
       return false;
     }
 
-    return this.cacheData[key].data;
+    return this.cacheData[ key ].data;
   }
 }
 
@@ -86,7 +87,7 @@ class Http extends Storage {
     super();
   }
 
-  get(url, {maxAge} = {}) {
+  get(url, { maxAge } = {}) {
     if (maxAge && super.getItem(url)) {
       return Promise.resolve(super.getItem(url));
     }
@@ -167,7 +168,7 @@ class DirList {
     const map = {};
 
     this.dirList.forEach(p => {
-      map[p] = DirList.getFileTypes(p, this.path);
+      map[ p ] = DirList.getFileTypes(p, this.path);
     });
 
     return map;
@@ -186,13 +187,13 @@ class DirList {
       } else {
         const match = /(?<=.+\.)\w+/i.exec(d);
 
-        if (match && match[0].toLowerCase() in FILE_TYPE_MAP) {
-          fileTypes.push(match[0].toLowerCase());
+        if (match && match[ 0 ].toLowerCase() in FILE_TYPE_MAP) {
+          fileTypes.push(match[ 0 ].toLowerCase());
         }
       }
     });
 
-    return [...new Set(fileTypes)];
+    return [ ...new Set(fileTypes) ];
   }
 
   getIds() {
@@ -232,7 +233,7 @@ function log(label, content, options) {
  * @returns {string}
  */
 function render(tpl = '', data = {}) {
-  return tpl.replace(/\{\{(\S+?)\}\}/g, (match, p) => data[p]);
+  return tpl.replace(/\{\{(\S+?)\}\}/g, (match, p) => data[ p ]);
 }
 
 /**
@@ -242,14 +243,28 @@ function render(tpl = '', data = {}) {
  * @returns {string | *}
  */
 function padStrBeauty(target, [
-    [start = 0, symbolS = ' '] = [],
-    [end = 0, symbolE = ' '] = [],
-  ] = []) {
+  [ start = 0, symbolS = ' ' ] = [],
+  [ end = 0, symbolE = ' ' ] = [],
+] = []) {
 
   target = target.toString();
 
-  if (start) target = target.padStart(start, symbolS);
-  if (end) target = target.padEnd(end, symbolE);
+  if (start) {
+    target = padFn(target, 'padStart', start, symbolS);
+  }
+  if (end) {
+    target = padFn(target, 'padEnd', end, symbolE);
+  }
+
+  function padFn(target, padType, se, symbol) {
+    let _target = target[ padType ](se, symbol);
+
+    if (symbol in symbolMap) {
+      _target = symbolScape(_target)(target)(symbolMap[ symbol ]);
+    }
+
+    return _target;
+  }
 
   return target;
 }
@@ -272,7 +287,6 @@ function arrayFlatten(arr = []) {
 module.exports = {
   DirList,
   Http,
-  rowTpl,
   appendFile,
   log,
   render,

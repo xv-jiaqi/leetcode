@@ -13,30 +13,37 @@
 
 [TOC]
 
-**初次下载仓库后需要执行 `sh init-hook.sh`.**
+## Usage
 
-提交规则 :exclamation::exclamation::exclamation:：<br>
-- **在 `./answer/` 目录下提交答案即可，目录名为问题 `ID`**；
-- `README` 中的记录表格无需手动维护。
+
+**`init-hook.sh` needs to be executed after the initial local repository: **
+```shell
+sh init-hook.sh
+```
+
+Commit rule :exclamation::exclamation::exclamation:：<br>
+- **Your solution can be placed in the `./answer/` directory, the directory name should be the problem `ID`**;
+- `README` does not need to be manually modified.
 
 
 ## Statistics
-
-<!-- statisticsS -->|Easy|Medium|Hard|<strong>Total</strong>|
+<!-- statisticsS -->
+|Easy|Medium|Hard|<strong>Total</strong>|
 |:-:|:-:|:-:|:-:|
-|21|27|5|<strong>53</strong>|<!-- statisticsE -->
+|21|27|5|<strong>53</strong>|
+<!-- statisticsE -->
 
 Rank:
 <!-- rankS -->
-> 🥇 JavaScript ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■  32/55<br>
-> 🥈     Python ■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□  23/55<br>
+> `🥇` JavaScript ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■&nbsp;&nbsp;&nbsp;&nbsp;32/55<br>
+> `🥈` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python ■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□&nbsp;&nbsp;&nbsp;&nbsp;23/55<br>
 <!-- rankE -->
 
 Contributors:
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
 |:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">51<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">29<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">51<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">30<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
