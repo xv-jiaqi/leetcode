@@ -28,13 +28,13 @@ Commit rule :exclamation:：<br>
 <!-- statisticsS -->
 |Easy|Medium|Hard|<strong>Total</strong>|
 |:-:|:-:|:-:|:-:|
-|23|30|5|<strong>58</strong>|
+|23|31|5|<strong>59</strong>|
 <!-- statisticsE -->
 
 Rank:
 <!-- rankS -->
-> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□`32`/60<br>
-> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□`28`/60<br>
+> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`32`/61<br>
+> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`29`/61<br>
 <!-- rankE -->
 
 Contributors:
@@ -145,7 +145,7 @@ Contributors:
 |0091|[Decode Ways](https://leetcode.com/problems/decode-ways)|[](./answer/0091)|Medium|
 |0092|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)|[](./answer/0092)|Medium|
 |0093|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses)|[](./answer/0093)|Medium|
-|0094|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)|[](./answer/0094)|Medium|
+|0094|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)|[Python](./answer/0094)|Medium|
 |0095|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii)|[](./answer/0095)|Medium|
 |0096|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees)|[](./answer/0096)|Medium|
 |0097|[Interleaving String](https://leetcode.com/problems/interleaving-string)|[](./answer/0097)|Hard|
