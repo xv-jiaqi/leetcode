@@ -28,13 +28,13 @@ Commit rule :exclamation:：<br>
 <!-- statisticsS -->
 |Easy|Medium|Hard|<strong>Total</strong>|
 |:-:|:-:|:-:|:-:|
-|24|31|5|<strong>60</strong>|
+|25|31|5|<strong>61</strong>|
 <!-- statisticsE -->
 
 Rank:
 <!-- rankS -->
-> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`32`/62<br>
-> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`30`/62<br>
+> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`32`/63<br>
+> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`31`/63<br>
 <!-- rankE -->
 
 Contributors:
@@ -139,7 +139,7 @@ Contributors:
 |0085|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle)|[](./answer/0085)|Hard|
 |0086|[Partition List](https://leetcode.com/problems/partition-list)|[](./answer/0086)|Medium|
 |0087|[Scramble String](https://leetcode.com/problems/scramble-string)|[](./answer/0087)|Hard|
-|0088|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)|[](./answer/0088)|Easy|
+|0088|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)|[Python](./answer/0088)|Easy|
 |0089|[Gray Code](https://leetcode.com/problems/gray-code)|[](./answer/0089)|Medium|
 |0090|[Subsets II](https://leetcode.com/problems/subsets-ii)|[](./answer/0090)|Medium|
 |0091|[Decode Ways](https://leetcode.com/problems/decode-ways)|[](./answer/0091)|Medium|
