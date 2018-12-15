@@ -28,20 +28,20 @@ Commit rule :exclamation:：<br>
 <!-- statisticsS -->
 |Easy|Medium|Hard|<strong>Total</strong>|
 |:-:|:-:|:-:|:-:|
-|21|27|5|<strong>53</strong>|
+|22|30|5|<strong>57</strong>|
 <!-- statisticsE -->
 
 Rank:
 <!-- rankS -->
-> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□`32`/55<br>
-> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□`23`/55<br>
+> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□`32`/59<br>
+> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□`27`/59<br>
 <!-- rankE -->
 
 Contributors:
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
 |:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">51<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">32<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">51<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">33<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
@@ -89,7 +89,7 @@ Contributors:
 |0035|[Search Insert Position](https://leetcode.com/problems/search-insert-position)|[JavaScript](./answer/0035)|Easy|
 |0036|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|[](./answer/0036)|Medium|
 |0037|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver)|[](./answer/0037)|Hard|
-|0038|[Count and Say](https://leetcode.com/problems/count-and-say)|[](./answer/0038)|Easy|
+|0038|[Count and Say](https://leetcode.com/problems/count-and-say)|[Python](./answer/0038)|Easy|
 |0039|[Combination Sum](https://leetcode.com/problems/combination-sum)|[](./answer/0039)|Medium|
 |0040|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii)|[](./answer/0040)|Medium|
 |0041|[First Missing Positive](https://leetcode.com/problems/first-missing-positive)|[](./answer/0041)|Hard|
@@ -97,7 +97,7 @@ Contributors:
 |0043|[Multiply Strings](https://leetcode.com/problems/multiply-strings)|[](./answer/0043)|Medium|
 |0044|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching)|[](./answer/0044)|Hard|
 |0045|[Jump Game II](https://leetcode.com/problems/jump-game-ii)|[](./answer/0045)|Hard|
-|0046|[Permutations](https://leetcode.com/problems/permutations)|[](./answer/0046)|Medium|
+|0046|[Permutations](https://leetcode.com/problems/permutations)|[Python](./answer/0046)|Medium|
 |0047|[Permutations II](https://leetcode.com/problems/permutations-ii)|[](./answer/0047)|Medium|
 |0048|[Rotate Image](https://leetcode.com/problems/rotate-image)|[](./answer/0048)|Medium|
 |0049|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|[](./answer/0049)|Medium|
@@ -114,7 +114,7 @@ Contributors:
 |0060|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence)|[](./answer/0060)|Medium|
 |0061|[Rotate List](https://leetcode.com/problems/rotate-list)|[](./answer/0061)|Medium|
 |0062|[Unique Paths](https://leetcode.com/problems/unique-paths)|[](./answer/0062)|Medium|
-|0063|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii)|[](./answer/0063)|Medium|
+|0063|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii)|[Python](./answer/0063)|Medium|
 |0064|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)|[](./answer/0064)|Medium|
 |0065|[Valid Number](https://leetcode.com/problems/valid-number)|[](./answer/0065)|Hard|
 |0066|[Plus One](https://leetcode.com/problems/plus-one)|[](./answer/0066)|Easy|
@@ -238,7 +238,7 @@ Contributors:
 |0184|[Department Highest Salary](https://leetcode.com/problems/department-highest-salary)|[](./answer/0184)|Medium|
 |0185|[Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries)|[](./answer/0185)|Hard|
 |0186|[Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii)|[](./answer/0186)|Medium|
-|0187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences)|[](./answer/0187)|Medium|
+|0187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences)|[Python](./answer/0187)|Medium|
 |0188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)|[](./answer/0188)|Hard|
 |0189|[Rotate Array](https://leetcode.com/problems/rotate-array)|[](./answer/0189)|Easy|
 |0190|[Reverse Bits](https://leetcode.com/problems/reverse-bits)|[](./answer/0190)|Easy|
