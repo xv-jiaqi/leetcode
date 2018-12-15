@@ -28,20 +28,20 @@ Commit rule :exclamation:：<br>
 <!-- statisticsS -->
 |Easy|Medium|Hard|<strong>Total</strong>|
 |:-:|:-:|:-:|:-:|
-|22|30|5|<strong>57</strong>|
+|23|30|5|<strong>58</strong>|
 <!-- statisticsE -->
 
 Rank:
 <!-- rankS -->
-> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□`32`/59<br>
-> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□`27`/59<br>
+> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□`32`/60<br>
+> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□`28`/60<br>
 <!-- rankE -->
 
 Contributors:
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
 |:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">51<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">33<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">53<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">33<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
@@ -151,7 +151,7 @@ Contributors:
 |0097|[Interleaving String](https://leetcode.com/problems/interleaving-string)|[](./answer/0097)|Hard|
 |0098|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)|[](./answer/0098)|Medium|
 |0099|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree)|[](./answer/0099)|Hard|
-|0100|[Same Tree](https://leetcode.com/problems/same-tree)|[](./answer/0100)|Easy|
+|0100|[Same Tree](https://leetcode.com/problems/same-tree)|[Python](./answer/0100)|Easy|
 |0101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree)|[](./answer/0101)|Easy|
 |0102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)|[](./answer/0102)|Medium|
 |0103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal)|[](./answer/0103)|Medium|
