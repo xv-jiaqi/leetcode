@@ -105,7 +105,7 @@ async function problemProcess() {
   }
 
   const tpl = problemList.map(({ id, title, camelCase, difficulty, solution }) => {
-    const srcData = { id, title, camelCase, difficulty, solutions: solution.join('<br>') };
+    const srcData = { id, title, camelCase, difficulty, solutions: solution.join(', ') };
     for (const [target, padRule] of Object.entries(strPad)) {
       srcData[target] = padStrBeauty(srcData[target], padRule);
     }
