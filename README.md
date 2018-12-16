@@ -28,20 +28,20 @@ Commit rule :exclamation:：<br>
 <!-- statisticsS -->
 |Easy|Medium|Hard|<strong>Total</strong>|
 |:-:|:-:|:-:|:-:|
-|25|31|5|<strong>61</strong>|
+|25|29|5|<strong>59</strong>|
 <!-- statisticsE -->
 
 Rank:
 <!-- rankS -->
-> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`32`/63<br>
-> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`31`/63<br>
+> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`32`/61<br>
+> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`29`/61<br>
 <!-- rankE -->
 
 Contributors:
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
 |:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">57<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">33<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">62<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">35<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
@@ -54,8 +54,8 @@ Contributors:
 |:--:|:------|:------:|:----------:|
 |0001|[Two Sum](https://leetcode.com/problems/two-sum)|[JavaScript](./answer/0001)|Easy|
 |0002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[JavaScript](./answer/0002)|Medium|
-|0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[JavaScript<br>Python](./answer/0003)|Medium|
-|0004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|[JavaScript<br>Python](./answer/0004)|Hard|
+|0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[JavaScript, Python](./answer/0003)|Medium|
+|0004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|[JavaScript, Python](./answer/0004)|Hard|
 |0005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)|[JavaScript](./answer/0005)|Medium|
 |0006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)|[JavaScript](./answer/0006)|Medium|
 |0007|[Reverse Integer](https://leetcode.com/problems/reverse-integer)|[JavaScript](./answer/0007)|Easy|
@@ -97,7 +97,7 @@ Contributors:
 |0043|[Multiply Strings](https://leetcode.com/problems/multiply-strings)|[](./answer/0043)|Medium|
 |0044|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching)|[](./answer/0044)|Hard|
 |0045|[Jump Game II](https://leetcode.com/problems/jump-game-ii)|[](./answer/0045)|Hard|
-|0046|[Permutations](https://leetcode.com/problems/permutations)|[Python](./answer/0046)|Medium|
+|0046|[Permutations](https://leetcode.com/problems/permutations)|[](./answer/0046)|Medium|
 |0047|[Permutations II](https://leetcode.com/problems/permutations-ii)|[](./answer/0047)|Medium|
 |0048|[Rotate Image](https://leetcode.com/problems/rotate-image)|[](./answer/0048)|Medium|
 |0049|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|[](./answer/0049)|Medium|
@@ -114,7 +114,7 @@ Contributors:
 |0060|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence)|[](./answer/0060)|Medium|
 |0061|[Rotate List](https://leetcode.com/problems/rotate-list)|[](./answer/0061)|Medium|
 |0062|[Unique Paths](https://leetcode.com/problems/unique-paths)|[](./answer/0062)|Medium|
-|0063|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii)|[Python](./answer/0063)|Medium|
+|0063|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii)|[](./answer/0063)|Medium|
 |0064|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)|[](./answer/0064)|Medium|
 |0065|[Valid Number](https://leetcode.com/problems/valid-number)|[](./answer/0065)|Hard|
 |0066|[Plus One](https://leetcode.com/problems/plus-one)|[](./answer/0066)|Easy|
@@ -238,7 +238,7 @@ Contributors:
 |0184|[Department Highest Salary](https://leetcode.com/problems/department-highest-salary)|[](./answer/0184)|Medium|
 |0185|[Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries)|[](./answer/0185)|Hard|
 |0186|[Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii)|[](./answer/0186)|Medium|
-|0187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences)|[Python](./answer/0187)|Medium|
+|0187|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences)|[](./answer/0187)|Medium|
 |0188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)|[](./answer/0188)|Hard|
 |0189|[Rotate Array](https://leetcode.com/problems/rotate-array)|[](./answer/0189)|Easy|
 |0190|[Reverse Bits](https://leetcode.com/problems/reverse-bits)|[](./answer/0190)|Easy|
@@ -999,7 +999,7 @@ Contributors:
 |0989|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor)|[](./answer/0989)|Hard|
 |0990|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary)|[](./answer/0990)|Easy|
 |0991|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs)|[](./answer/0991)|Medium|
-|0992|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)|[](./answer/0992)|Medium|
+|0992|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)|[Python](./answer/0992)|Medium|
 |0993|[Tallest Billboard](https://leetcode.com/problems/tallest-billboard)|[](./answer/0993)|Hard|
 <!-- problemE -->
 

@@ -1,4 +1,4 @@
-const { resolve, join } = require('path');
+const { resolve } = require('path');
 const { readFileSync, writeFile, existsSync } = require('fs');
 const { DirList, Http, appendFile, log, render, arrayFlatten, padStrBeauty, FILE_TYPE_MAP, LEVEL_MAP } = require('./util');
 const { answerDir, readmeFile, problem, statistics, contributor, rank, stamp, readmeTemplate } = require('./config');
@@ -217,7 +217,7 @@ async function buildAnswerDocs() {
     const path = resolve(process.cwd(), 'answer', dir, 'README.md');
 
     if (!existsSync(path)) {
-      const { camelCase } = problemList[+dir];
+      const { camelCase } = problemList.filter(p => p.id === +dir);
 
       const tpl = render(readmeTemplate, { camelCase });
 
