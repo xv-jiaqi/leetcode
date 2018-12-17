@@ -28,20 +28,20 @@ Commit rule :exclamation:：<br>
 <!-- statisticsS -->
 |Easy|Medium|Hard|<strong>Total</strong>|
 |:-:|:-:|:-:|:-:|
-|25|29|5|<strong>59</strong>|
+|27|29|5|<strong>61</strong>|
 <!-- statisticsE -->
 
 Rank:
 <!-- rankS -->
-> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`32`/61<br>
-> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`29`/61<br>
+> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`32`/63<br>
+> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`31`/63<br>
 <!-- rankE -->
 
 Contributors:
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
 |:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">62<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">35<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">62<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">36<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
@@ -104,7 +104,7 @@ Contributors:
 |0050|[Pow(x, n)](https://leetcode.com/problems/powx-n)|[](./answer/0050)|Medium|
 |0051|[N-Queens](https://leetcode.com/problems/n-queens)|[](./answer/0051)|Hard|
 |0052|[N-Queens II](https://leetcode.com/problems/n-queens-ii)|[](./answer/0052)|Hard|
-|0053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray)|[](./answer/0053)|Easy|
+|0053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray)|[Python](./answer/0053)|Easy|
 |0054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix)|[](./answer/0054)|Medium|
 |0055|[Jump Game](https://leetcode.com/problems/jump-game)|[](./answer/0055)|Medium|
 |0056|[Merge Intervals](https://leetcode.com/problems/merge-intervals)|[](./answer/0056)|Medium|
@@ -354,7 +354,7 @@ Contributors:
 |0300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence)|[](./answer/0300)|Medium|
 |0301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses)|[](./answer/0301)|Hard|
 |0302|[Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels)|[](./answer/0302)|Hard|
-|0303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)|[](./answer/0303)|Easy|
+|0303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)|[Python](./answer/0303)|Easy|
 |0304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable)|[](./answer/0304)|Medium|
 |0305|[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii)|[](./answer/0305)|Hard|
 |0306|[Additive Number](https://leetcode.com/problems/additive-number)|[](./answer/0306)|Medium|
