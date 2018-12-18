@@ -223,7 +223,7 @@ function appendFile(oldFileText, insertPoint, tplContent) {
  * @param options
  */
 function log(label, content, options) {
-  console.log('\x1b[1m%s\x1b[31m%s\x1b[0m', label, content);
+  console.log('\x1b[1m%s\x1b[32m%s\x1b[0m', label, content);
 }
 
 /**

@@ -1,3 +1,3 @@
 Problem: :link: 
-- [:cn:中文](https://leetcode-cn.com/problems/custom-sort-string)
-- [:us:English](https://leetcode.com/problems/custom-sort-string)
+- [:cn:中文](https://leetcode-cn.com/problems/encode-n-ary-tree-to-binary-tree)
+- [:us:English](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree)

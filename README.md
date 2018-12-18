@@ -28,20 +28,20 @@ Commit rule :exclamation:：<br>
 <!-- statisticsS -->
 |Easy|Medium|Hard|<strong>Total</strong>|
 |:-:|:-:|:-:|:-:|
-|27|29|5|<strong>61</strong>|
+|27|28|5|<strong>60</strong>|
 <!-- statisticsE -->
 
 Rank:
 <!-- rankS -->
-> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`32`/64<br>
-> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`32`/64<br>
+> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`32`/63<br>
+> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`31`/63<br>
 <!-- rankE -->
 
 Contributors:
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
 |:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">64<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">36<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">65<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">36<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
@@ -999,7 +999,7 @@ Contributors:
 |0989|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor)|[](./answer/0989)|Hard|
 |0990|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary)|[](./answer/0990)|Easy|
 |0991|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs)|[](./answer/0991)|Medium|
-|0992|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)|[Python](./answer/0992)|Medium|
+|0992|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)|[](./answer/0992)|Medium|
 |0993|[Tallest Billboard](https://leetcode.com/problems/tallest-billboard)|[](./answer/0993)|Hard|
 <!-- problemE -->
 

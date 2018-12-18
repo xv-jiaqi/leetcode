@@ -217,7 +217,7 @@ async function buildAnswerDocs() {
     const path = resolve(process.cwd(), 'answer', dir, 'README.md');
 
     if (!existsSync(path)) {
-      const { camelCase } = problemList.filter(p => p.id === +dir);
+      const [{ camelCase } = {}] = problemList.filter(p => p.id === +dir);
 
       const tpl = render(readmeTemplate, { camelCase });
 

@@ -1,3 +1,3 @@
 Problem: :link: 
-- [:cn:中文](https://leetcode-cn.com/problems/symmetric-tree)
-- [:us:English](https://leetcode.com/problems/symmetric-tree)
+- [:cn:中文](https://leetcode-cn.com/problems/same-tree)
+- [:us:English](https://leetcode.com/problems/same-tree)
