@@ -28,20 +28,20 @@ Commit rule :exclamation:：<br>
 <!-- statisticsS -->
 |Easy|Medium|Hard|<strong>Total</strong>|
 |:-:|:-:|:-:|:-:|
-|27|28|5|<strong>60</strong>|
+|27|28|6|<strong>61</strong>|
 <!-- statisticsE -->
 
 Rank:
 <!-- rankS -->
-> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`33`/64<br>
-> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`31`/64<br>
+> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`34`/66<br>
+> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`32`/66<br>
 <!-- rankE -->
 
 Contributors:
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
 |:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">67<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">37<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">68<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">39<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
@@ -762,7 +762,7 @@ Contributors:
 |0743|[Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree)|[](./answer/0743)|Medium|
 |0744|[Network Delay Time](https://leetcode.com/problems/network-delay-time)|[](./answer/0744)|Easy|
 |0745|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)|[](./answer/0745)|Easy|
-|0746|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search)|[](./answer/0746)|Hard|
+|0746|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search)|[Python](./answer/0746)|Hard|
 |0747|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)|[](./answer/0747)|Easy|
 |0748|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others)|[](./answer/0748)|Easy|
 |0749|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word)|[](./answer/0749)|Easy|
