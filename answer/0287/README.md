@@ -1,3 +1,3 @@
 Problem: :link: 
-- [:cn:中文](https://leetcode-cn.com/problems/unique-word-abbreviation)
-- [:us:English](https://leetcode.com/problems/unique-word-abbreviation)
+- [:cn:中文](https://leetcode-cn.com/problems/find-the-duplicate-number)
+- [:us:English](https://leetcode.com/problems/find-the-duplicate-number)

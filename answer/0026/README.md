@@ -1,3 +1,3 @@
 Problem: :link: 
-- [:cn:中文](https://leetcode-cn.com/problems/remove-element)
-- [:us:English](https://leetcode.com/problems/remove-element)
+- [:cn:中文](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array)
+- [:us:English](https://leetcode.com/problems/remove-duplicates-from-sorted-array)

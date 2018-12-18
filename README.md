@@ -28,7 +28,7 @@ Commit rule :exclamation:：<br>
 <!-- statisticsS -->
 |Easy|Medium|Hard|<strong>Total</strong>|
 |:-:|:-:|:-:|:-:|
-|27|29|5|<strong>61</strong>|
+|27|28|5|<strong>60</strong>|
 <!-- statisticsE -->
 
 Rank:
@@ -41,7 +41,7 @@ Contributors:
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
 |:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">62<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">36<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">65<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">36<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
@@ -53,7 +53,7 @@ Contributors:
 | ID | Title | Answer | Difficulty |
 |:--:|:------|:------:|:----------:|
 |0001|[Two Sum](https://leetcode.com/problems/two-sum)|[JavaScript](./answer/0001)|Easy|
-|0002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[JavaScript](./answer/0002)|Medium|
+|0002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[JavaScript, Python](./answer/0002)|Medium|
 |0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[JavaScript, Python](./answer/0003)|Medium|
 |0004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|[JavaScript, Python](./answer/0004)|Hard|
 |0005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)|[JavaScript](./answer/0005)|Medium|
@@ -999,7 +999,7 @@ Contributors:
 |0989|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor)|[](./answer/0989)|Hard|
 |0990|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary)|[](./answer/0990)|Easy|
 |0991|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs)|[](./answer/0991)|Medium|
-|0992|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)|[Python](./answer/0992)|Medium|
+|0992|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)|[](./answer/0992)|Medium|
 |0993|[Tallest Billboard](https://leetcode.com/problems/tallest-billboard)|[](./answer/0993)|Hard|
 <!-- problemE -->
 

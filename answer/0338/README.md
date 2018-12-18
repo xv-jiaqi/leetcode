@@ -1,3 +1,3 @@
 Problem: :link: 
-- [:cn:中文](https://leetcode-cn.com/problems/nested-list-weight-sum)
-- [:us:English](https://leetcode.com/problems/nested-list-weight-sum)
+- [:cn:中文](https://leetcode-cn.com/problems/counting-bits)
+- [:us:English](https://leetcode.com/problems/counting-bits)
