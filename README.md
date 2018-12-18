@@ -172,7 +172,7 @@ Contributors:
 |0118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle)|[](./answer/0118)|Easy|
 |0119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)|[](./answer/0119)|Easy|
 |0120|[Triangle](https://leetcode.com/problems/triangle)|[](./answer/0120)|Medium|
-|0121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)|[Python](./answer/0121)|Easy|
+|0121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)|[JavaScript, Python](./answer/0121)|Easy|
 |0122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[](./answer/0122)|Easy|
 |0123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii)|[](./answer/0123)|Hard|
 |0124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)|[](./answer/0124)|Hard|
