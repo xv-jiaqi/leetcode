@@ -28,13 +28,13 @@ Commit rule :exclamation:：<br>
 <!-- statisticsS -->
 |Easy|Medium|Hard|<strong>Total</strong>|
 |:-:|:-:|:-:|:-:|
-|27|28|6|<strong>61</strong>|
+|28|28|6|<strong>62</strong>|
 <!-- statisticsE -->
 
 Rank:
 <!-- rankS -->
-> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`34`/66<br>
-> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`32`/66<br>
+> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`34`/67<br>
+> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`33`/67<br>
 <!-- rankE -->
 
 Contributors:
@@ -121,7 +121,7 @@ Contributors:
 |0067|[Add Binary](https://leetcode.com/problems/add-binary)|[](./answer/0067)|Easy|
 |0068|[Text Justification](https://leetcode.com/problems/text-justification)|[](./answer/0068)|Hard|
 |0069|[Sqrt(x)](https://leetcode.com/problems/sqrtx)|[](./answer/0069)|Easy|
-|0070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|[](./answer/0070)|Easy|
+|0070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|[Python](./answer/0070)|Easy|
 |0071|[Simplify Path](https://leetcode.com/problems/simplify-path)|[](./answer/0071)|Medium|
 |0072|[Edit Distance](https://leetcode.com/problems/edit-distance)|[](./answer/0072)|Hard|
 |0073|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)|[](./answer/0073)|Medium|
