@@ -6,7 +6,6 @@ class Solution:
         """
 
         dp = [nums[0]]
-        max_val = nums[0]
 
         for num in nums[1:]:
             if dp[-1] < 0:

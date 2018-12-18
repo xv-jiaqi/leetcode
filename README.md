@@ -33,15 +33,15 @@ Commit rule :exclamation:：<br>
 
 Rank:
 <!-- rankS -->
-> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`32`/63<br>
-> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`31`/63<br>
+> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`32`/64<br>
+> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`32`/64<br>
 <!-- rankE -->
 
 Contributors:
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
 |:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">62<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">36<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">64<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">36<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
@@ -53,7 +53,7 @@ Contributors:
 | ID | Title | Answer | Difficulty |
 |:--:|:------|:------:|:----------:|
 |0001|[Two Sum](https://leetcode.com/problems/two-sum)|[JavaScript](./answer/0001)|Easy|
-|0002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[JavaScript](./answer/0002)|Medium|
+|0002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[JavaScript, Python](./answer/0002)|Medium|
 |0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[JavaScript, Python](./answer/0003)|Medium|
 |0004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|[JavaScript, Python](./answer/0004)|Hard|
 |0005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)|[JavaScript](./answer/0005)|Medium|
