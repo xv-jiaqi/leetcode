@@ -28,20 +28,20 @@ Commit rule :exclamation:：<br>
 <!-- statisticsS -->
 |Easy|Medium|Hard|<strong>Total</strong>|
 |:-:|:-:|:-:|:-:|
-|29|29|6|<strong>64</strong>|
+|29|30|6|<strong>65</strong>|
 <!-- statisticsE -->
 
 Rank:
 <!-- rankS -->
-> 🥇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`35`/69<br>
-> 🥈 `JavaScript` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`34`/69<br>
+> 🥇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`36`/70<br>
+> 🥈 `JavaScript` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`34`/70<br>
 <!-- rankE -->
 
 Contributors:
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
 |:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">71<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">39<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">72<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">39<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
@@ -153,7 +153,7 @@ Contributors:
 |0099|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree)|[](./answer/0099)|Hard|
 |0100|[Same Tree](https://leetcode.com/problems/same-tree)|[Python](./answer/0100)|Easy|
 |0101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree)|[](./answer/0101)|Easy|
-|0102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)|[](./answer/0102)|Medium|
+|0102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)|[Python](./answer/0102)|Medium|
 |0103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal)|[Python](./answer/0103)|Medium|
 |0104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)|[Python](./answer/0104)|Easy|
 |0105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)|[](./answer/0105)|Medium|
