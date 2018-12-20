@@ -28,20 +28,20 @@ Commit rule :exclamation:：<br>
 <!-- statisticsS -->
 |Easy|Medium|Hard|<strong>Total</strong>|
 |:-:|:-:|:-:|:-:|
-|27|28|5|<strong>60</strong>|
+|29|30|6|<strong>65</strong>|
 <!-- statisticsE -->
 
 Rank:
 <!-- rankS -->
-> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`33`/64<br>
-> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`31`/64<br>
+> 🥇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`37`/71<br>
+> 🥈 `JavaScript` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`34`/71<br>
 <!-- rankE -->
 
 Contributors:
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
 |:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">67<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">37<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">73<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">39<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
@@ -56,7 +56,7 @@ Contributors:
 |0002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[JavaScript, Python](./answer/0002)|Medium|
 |0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[JavaScript, Python](./answer/0003)|Medium|
 |0004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|[JavaScript, Python](./answer/0004)|Hard|
-|0005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)|[JavaScript](./answer/0005)|Medium|
+|0005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)|[JavaScript, Python](./answer/0005)|Medium|
 |0006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)|[JavaScript](./answer/0006)|Medium|
 |0007|[Reverse Integer](https://leetcode.com/problems/reverse-integer)|[JavaScript](./answer/0007)|Easy|
 |0008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)|[JavaScript](./answer/0008)|Medium|
@@ -121,7 +121,7 @@ Contributors:
 |0067|[Add Binary](https://leetcode.com/problems/add-binary)|[](./answer/0067)|Easy|
 |0068|[Text Justification](https://leetcode.com/problems/text-justification)|[](./answer/0068)|Hard|
 |0069|[Sqrt(x)](https://leetcode.com/problems/sqrtx)|[](./answer/0069)|Easy|
-|0070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|[](./answer/0070)|Easy|
+|0070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|[Python](./answer/0070)|Easy|
 |0071|[Simplify Path](https://leetcode.com/problems/simplify-path)|[](./answer/0071)|Medium|
 |0072|[Edit Distance](https://leetcode.com/problems/edit-distance)|[](./answer/0072)|Hard|
 |0073|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)|[](./answer/0073)|Medium|
@@ -153,9 +153,9 @@ Contributors:
 |0099|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree)|[](./answer/0099)|Hard|
 |0100|[Same Tree](https://leetcode.com/problems/same-tree)|[Python](./answer/0100)|Easy|
 |0101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree)|[](./answer/0101)|Easy|
-|0102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)|[](./answer/0102)|Medium|
-|0103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal)|[](./answer/0103)|Medium|
-|0104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)|[](./answer/0104)|Easy|
+|0102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)|[Python](./answer/0102)|Medium|
+|0103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal)|[Python](./answer/0103)|Medium|
+|0104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)|[Python](./answer/0104)|Easy|
 |0105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)|[](./answer/0105)|Medium|
 |0106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)|[](./answer/0106)|Medium|
 |0107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)|[](./answer/0107)|Easy|
@@ -762,7 +762,7 @@ Contributors:
 |0743|[Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree)|[](./answer/0743)|Medium|
 |0744|[Network Delay Time](https://leetcode.com/problems/network-delay-time)|[](./answer/0744)|Easy|
 |0745|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)|[](./answer/0745)|Easy|
-|0746|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search)|[](./answer/0746)|Hard|
+|0746|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search)|[Python](./answer/0746)|Hard|
 |0747|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)|[](./answer/0747)|Easy|
 |0748|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others)|[](./answer/0748)|Easy|
 |0749|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word)|[](./answer/0749)|Easy|
