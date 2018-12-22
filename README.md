@@ -28,20 +28,20 @@ Commit rule :exclamation:：<br>
 <!-- statisticsS -->
 |Easy|Medium|Hard|<strong>Total</strong>|
 |:-:|:-:|:-:|:-:|
-|29|30|6|<strong>65</strong>|
+|30|30|6|<strong>66</strong>|
 <!-- statisticsE -->
 
 Rank:
 <!-- rankS -->
-> 🥇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`37`/71<br>
-> 🥈 `JavaScript` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`34`/71<br>
+> 🥇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□`38`/72<br>
+> 🥈 `JavaScript` ■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□`34`/72<br>
 <!-- rankE -->
 
 Contributors:
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
 |:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">73<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">39<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">74<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">41<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
@@ -117,7 +117,7 @@ Contributors:
 |0063|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii)|[](./answer/0063)|Medium|
 |0064|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)|[](./answer/0064)|Medium|
 |0065|[Valid Number](https://leetcode.com/problems/valid-number)|[](./answer/0065)|Hard|
-|0066|[Plus One](https://leetcode.com/problems/plus-one)|[](./answer/0066)|Easy|
+|0066|[Plus One](https://leetcode.com/problems/plus-one)|[Python](./answer/0066)|Easy|
 |0067|[Add Binary](https://leetcode.com/problems/add-binary)|[](./answer/0067)|Easy|
 |0068|[Text Justification](https://leetcode.com/problems/text-justification)|[](./answer/0068)|Hard|
 |0069|[Sqrt(x)](https://leetcode.com/problems/sqrtx)|[](./answer/0069)|Easy|
@@ -1001,6 +1001,10 @@ Contributors:
 |0991|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs)|[](./answer/0991)|Medium|
 |0992|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)|[](./answer/0992)|Medium|
 |0993|[Tallest Billboard](https://leetcode.com/problems/tallest-billboard)|[](./answer/0993)|Hard|
+|0994|[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days)|[](./answer/0994)|Medium|
+|0998|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree)|[](./answer/0998)|Medium|
+|0999|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes)|[](./answer/0999)|Medium|
+|1000|[Delete Columns to Make Sorted III](https://leetcode.com/problems/delete-columns-to-make-sorted-iii)|[](./answer/1000)|Hard|
 <!-- problemE -->
 
 [回到顶部 :top:](#readme)
