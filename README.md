@@ -1,6 +1,6 @@
 # Leetcode
 
-> Some [Leetcode](https://leetcode.com) algorithm and data structure answer wrote by Javascript/Python ... :100:.
+> Some [Leetcode](https://leetcode.com) algorithm and data structure answer wrote by Python/JavaScript ... :100:.
 
 <!-- stampS -->
 [![Progress](http://progressed.io/bar/1?title=done)](https://leetcode.com/problemset/all/)<!-- stampE -->
@@ -9,7 +9,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/kkxujq/leetcode.svg)](https://github.com/kkxujq/leetcode/stargazers)
 [![GitHub license](https://img.shields.io/github/license/kkxujq/leetcode.svg)](https://github.com/kkxujq/leetcode/blob/master/LICENSE)
 
-![leetcode](./scripts/leetcode-logo.png)
+<p align="center"><img src="./scripts/leetcode-logo.png"/></p>
 
 [TOC]
 
@@ -41,7 +41,7 @@ Contributors:
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
 |:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">73<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">39<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">76<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">41<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
@@ -1001,6 +1001,14 @@ Contributors:
 |0991|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs)|[](./answer/0991)|Medium|
 |0992|[Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii)|[](./answer/0992)|Medium|
 |0993|[Tallest Billboard](https://leetcode.com/problems/tallest-billboard)|[](./answer/0993)|Hard|
+|0994|[Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days)|[](./answer/0994)|Medium|
+|0998|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree)|[](./answer/0998)|Medium|
+|0999|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes)|[](./answer/0999)|Medium|
+|1000|[Delete Columns to Make Sorted III](https://leetcode.com/problems/delete-columns-to-make-sorted-iii)|[](./answer/1000)|Hard|
+|1001|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array)|[](./answer/1001)|Easy|
+|1002|[Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp)|[](./answer/1002)|Medium|
+|1003|[Minimum Area Rectangle II](https://leetcode.com/problems/minimum-area-rectangle-ii)|[](./answer/1003)|Medium|
+|1004|[Least Operators to Express Number](https://leetcode.com/problems/least-operators-to-express-number)|[](./answer/1004)|Hard|
 <!-- problemE -->
 
 [回到顶部 :top:](#readme)
