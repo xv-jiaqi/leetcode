@@ -28,13 +28,13 @@ Commit rule :exclamation:：<br>
 <!-- statisticsS -->
 |Easy|Medium|Hard|<strong>Total</strong>|
 |:-:|:-:|:-:|:-:|
-|29|30|6|<strong>65</strong>|
+|30|30|6|<strong>66</strong>|
 <!-- statisticsE -->
 
 Rank:
 <!-- rankS -->
-> 🥇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`37`/71<br>
-> 🥈 `JavaScript` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`34`/71<br>
+> 🥇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□`39`/73<br>
+> 🥈 `JavaScript` ■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□`34`/73<br>
 <!-- rankE -->
 
 Contributors:
@@ -60,7 +60,7 @@ Contributors:
 |0006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)|[JavaScript](./answer/0006)|Medium|
 |0007|[Reverse Integer](https://leetcode.com/problems/reverse-integer)|[JavaScript](./answer/0007)|Easy|
 |0008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)|[JavaScript](./answer/0008)|Medium|
-|0009|[Palindrome Number](https://leetcode.com/problems/palindrome-number)|[JavaScript](./answer/0009)|Easy|
+|0009|[Palindrome Number](https://leetcode.com/problems/palindrome-number)|[JavaScript, Python](./answer/0009)|Easy|
 |0010|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching)|[JavaScript](./answer/0010)|Hard|
 |0011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water)|[JavaScript](./answer/0011)|Medium|
 |0012|[Integer to Roman](https://leetcode.com/problems/integer-to-roman)|[JavaScript](./answer/0012)|Medium|
@@ -117,7 +117,7 @@ Contributors:
 |0063|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii)|[](./answer/0063)|Medium|
 |0064|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)|[](./answer/0064)|Medium|
 |0065|[Valid Number](https://leetcode.com/problems/valid-number)|[](./answer/0065)|Hard|
-|0066|[Plus One](https://leetcode.com/problems/plus-one)|[](./answer/0066)|Easy|
+|0066|[Plus One](https://leetcode.com/problems/plus-one)|[Python](./answer/0066)|Easy|
 |0067|[Add Binary](https://leetcode.com/problems/add-binary)|[](./answer/0067)|Easy|
 |0068|[Text Justification](https://leetcode.com/problems/text-justification)|[](./answer/0068)|Hard|
 |0069|[Sqrt(x)](https://leetcode.com/problems/sqrtx)|[](./answer/0069)|Easy|
@@ -1005,10 +1005,6 @@ Contributors:
 |0998|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree)|[](./answer/0998)|Medium|
 |0999|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes)|[](./answer/0999)|Medium|
 |1000|[Delete Columns to Make Sorted III](https://leetcode.com/problems/delete-columns-to-make-sorted-iii)|[](./answer/1000)|Hard|
-|1001|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array)|[](./answer/1001)|Easy|
-|1002|[Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp)|[](./answer/1002)|Medium|
-|1003|[Minimum Area Rectangle II](https://leetcode.com/problems/minimum-area-rectangle-ii)|[](./answer/1003)|Medium|
-|1004|[Least Operators to Express Number](https://leetcode.com/problems/least-operators-to-express-number)|[](./answer/1004)|Hard|
 <!-- problemE -->
 
 [回到顶部 :top:](#readme)
