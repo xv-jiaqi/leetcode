@@ -33,15 +33,15 @@ Commit rule :exclamation:：<br>
 
 Rank:
 <!-- rankS -->
-> 🥇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□`38`/72<br>
-> 🥈 `JavaScript` ■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□`34`/72<br>
+> 🥇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□`39`/73<br>
+> 🥈 `JavaScript` ■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□`34`/73<br>
 <!-- rankE -->
 
 Contributors:
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
 |:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">74<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">41<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">75<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">41<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
@@ -60,7 +60,7 @@ Contributors:
 |0006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)|[JavaScript](./answer/0006)|Medium|
 |0007|[Reverse Integer](https://leetcode.com/problems/reverse-integer)|[JavaScript](./answer/0007)|Easy|
 |0008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)|[JavaScript](./answer/0008)|Medium|
-|0009|[Palindrome Number](https://leetcode.com/problems/palindrome-number)|[JavaScript](./answer/0009)|Easy|
+|0009|[Palindrome Number](https://leetcode.com/problems/palindrome-number)|[JavaScript, Python](./answer/0009)|Easy|
 |0010|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching)|[JavaScript](./answer/0010)|Hard|
 |0011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water)|[JavaScript](./answer/0011)|Medium|
 |0012|[Integer to Roman](https://leetcode.com/problems/integer-to-roman)|[JavaScript](./answer/0012)|Medium|
