@@ -33,15 +33,15 @@ Commit rule :exclamation:：<br>
 
 Rank:
 <!-- rankS -->
-> 🥇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□`39`/73<br>
-> 🥈 `JavaScript` ■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□`34`/73<br>
+> 🥇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□`40`/74<br>
+> 🥈 `JavaScript` ■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□`34`/74<br>
 <!-- rankE -->
 
 Contributors:
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
 |:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">76<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">41<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">76<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">43<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
@@ -65,7 +65,7 @@ Contributors:
 |0011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water)|[JavaScript](./answer/0011)|Medium|
 |0012|[Integer to Roman](https://leetcode.com/problems/integer-to-roman)|[JavaScript](./answer/0012)|Medium|
 |0013|[Roman to Integer](https://leetcode.com/problems/roman-to-integer)|[JavaScript](./answer/0013)|Easy|
-|0014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[JavaScript](./answer/0014)|Easy|
+|0014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[JavaScript, Python](./answer/0014)|Easy|
 |0015|[3Sum](https://leetcode.com/problems/3sum)|[JavaScript](./answer/0015)|Medium|
 |0016|[3Sum Closest](https://leetcode.com/problems/3sum-closest)|[JavaScript](./answer/0016)|Medium|
 |0017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[JavaScript](./answer/0017)|Medium|
