@@ -185,7 +185,7 @@ class DirList {
       if (statSync(dir).isDirectory()) {
         fileTypes = fileTypes.concat(this.getFileTypes(dir, root));
       } else {
-        const match = /(?<=.+\.)\w+/i.exec(d);
+        const match = /(?<=\S+\.)\w+$/i.exec(d);
 
         if (match && match[0].toLowerCase() in FILE_TYPE_MAP) {
           fileTypes.push(match[0].toLowerCase());

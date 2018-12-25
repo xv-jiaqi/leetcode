@@ -28,13 +28,13 @@ Commit rule :exclamation:：<br>
 <!-- statisticsS -->
 |Easy|Medium|Hard|<strong>Total</strong>|
 |:-:|:-:|:-:|:-:|
-|30|30|6|<strong>66</strong>|
+|33|30|6|<strong>69</strong>|
 <!-- statisticsE -->
 
 Rank:
 <!-- rankS -->
-> 🥇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□`40`/74<br>
-> 🥈 `JavaScript` ■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□`34`/74<br>
+> 🥇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`40`/78<br>
+> 🥈 `JavaScript` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`38`/78<br>
 <!-- rankE -->
 
 Contributors:
@@ -120,7 +120,7 @@ Contributors:
 |0066|[Plus One](https://leetcode.com/problems/plus-one)|[Python](./answer/0066)|Easy|
 |0067|[Add Binary](https://leetcode.com/problems/add-binary)|[](./answer/0067)|Easy|
 |0068|[Text Justification](https://leetcode.com/problems/text-justification)|[](./answer/0068)|Hard|
-|0069|[Sqrt(x)](https://leetcode.com/problems/sqrtx)|[](./answer/0069)|Easy|
+|0069|[Sqrt(x)](https://leetcode.com/problems/sqrtx)|[JavaScript](./answer/0069)|Easy|
 |0070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|[Python](./answer/0070)|Easy|
 |0071|[Simplify Path](https://leetcode.com/problems/simplify-path)|[](./answer/0071)|Medium|
 |0072|[Edit Distance](https://leetcode.com/problems/edit-distance)|[](./answer/0072)|Hard|
@@ -173,7 +173,7 @@ Contributors:
 |0119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)|[](./answer/0119)|Easy|
 |0120|[Triangle](https://leetcode.com/problems/triangle)|[](./answer/0120)|Medium|
 |0121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)|[JavaScript, Python](./answer/0121)|Easy|
-|0122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[](./answer/0122)|Easy|
+|0122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[JavaScript](./answer/0122)|Easy|
 |0123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii)|[](./answer/0123)|Hard|
 |0124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)|[](./answer/0124)|Hard|
 |0125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome)|[](./answer/0125)|Easy|
@@ -787,7 +787,7 @@ Contributors:
 |0768|[Partition Labels](https://leetcode.com/problems/partition-labels)|[](./answer/0768)|Medium|
 |0769|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign)|[](./answer/0769)|Medium|
 |0770|[Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands)|[](./answer/0770)|Hard|
-|0771|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree)|[Python](./answer/0771)|Hard|
+|0771|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree)|[JavaScript, Python](./answer/0771)|Hard|
 |0772|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree)|[](./answer/0772)|Easy|
 |0773|[Quad Tree Intersection](https://leetcode.com/problems/quad-tree-intersection)|[](./answer/0773)|Easy|
 |0774|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree)|[](./answer/0774)|Easy|
@@ -938,7 +938,7 @@ Contributors:
 |0926|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern)|[](./answer/0926)|Medium|
 |0927|[Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths)|[](./answer/0927)|Hard|
 |0928|[Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes)|[](./answer/0928)|Easy|
-|0929|[Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings)|[](./answer/0929)|Easy|
+|0929|[Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings)|[JavaScript](./answer/0929)|Easy|
 |0930|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees)|[](./answer/0930)|Medium|
 |0931|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack)|[](./answer/0931)|Hard|
 |0932|[Monotonic Array](https://leetcode.com/problems/monotonic-array)|[](./answer/0932)|Easy|
