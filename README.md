@@ -28,20 +28,21 @@ Commit rule :exclamation:：<br>
 <!-- statisticsS -->
 |Easy|Medium|Hard|<strong>Total</strong>|
 |:-:|:-:|:-:|:-:|
-|33|30|6|<strong>69</strong>|
+|34|30|6|<strong>70</strong>|
 <!-- statisticsE -->
 
 Rank:
 <!-- rankS -->
-> 🥇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`40`/79<br>
-> 🥈 `JavaScript` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`39`/79<br>
+> 🥇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`40`/80<br>
+> 🥈 `JavaScript` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`39`/80<br>
+> 🥉 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`SQL` ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□&nbsp;&nbsp;&nbsp;&nbsp;`1`/80<br>
 <!-- rankE -->
 
 Contributors:
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
 |:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">77<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">47<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">77<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">48<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
@@ -624,7 +625,7 @@ Contributors:
 |0592|[Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction)|[](./answer/0592)|Medium|
 |0593|[Valid Square](https://leetcode.com/problems/valid-square)|[](./answer/0593)|Medium|
 |0594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence)|[](./answer/0594)|Easy|
-|0595|[Big Countries](https://leetcode.com/problems/big-countries)|[](./answer/0595)|Easy|
+|0595|[Big Countries](https://leetcode.com/problems/big-countries)|[SQL](./answer/0595)|Easy|
 |0596|[Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students)|[](./answer/0596)|Easy|
 |0597|[Friend Requests I: Overall Acceptance Rate](https://leetcode.com/problems/friend-requests-i-overall-acceptance-rate)|[](./answer/0597)|Easy|
 |0598|[Range Addition II](https://leetcode.com/problems/range-addition-ii)|[](./answer/0598)|Easy|
@@ -1005,6 +1006,10 @@ Contributors:
 |0998|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree)|[](./answer/0998)|Medium|
 |0999|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes)|[](./answer/0999)|Medium|
 |1000|[Delete Columns to Make Sorted III](https://leetcode.com/problems/delete-columns-to-make-sorted-iii)|[](./answer/1000)|Hard|
+|1001|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array)|[](./answer/1001)|Easy|
+|1002|[Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp)|[](./answer/1002)|Medium|
+|1003|[Minimum Area Rectangle II](https://leetcode.com/problems/minimum-area-rectangle-ii)|[](./answer/1003)|Medium|
+|1004|[Least Operators to Express Number](https://leetcode.com/problems/least-operators-to-express-number)|[](./answer/1004)|Hard|
 <!-- problemE -->
 
 [回到顶部 :top:](#readme)

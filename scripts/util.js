@@ -12,6 +12,7 @@ const FILE_TYPE_MAP = {
   'c': 'C',
   'cpp': 'C++',
   'java': 'Java',
+  'sql': 'SQL',
 };
 
 const LEVEL_MAP = {
