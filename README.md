@@ -28,14 +28,14 @@ Commit rule :exclamation:：<br>
 <!-- statisticsS -->
 |Easy|Medium|Hard|<strong>Total</strong>|
 |:-:|:-:|:-:|:-:|
-|34|30|6|<strong>70</strong>|
+|35|32|6|<strong>73</strong>|
 <!-- statisticsE -->
 
 Rank:
 <!-- rankS -->
-> 🥇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`40`/80<br>
-> 🥈 `JavaScript` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`39`/80<br>
-> 🥉 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`SQL` ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□&nbsp;&nbsp;&nbsp;&nbsp;`1`/80<br>
+> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`42`/83<br>
+> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`40`/83<br>
+> 🥉 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`SQL` ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□&nbsp;&nbsp;&nbsp;&nbsp;`1`/83<br>
 <!-- rankE -->
 
 Contributors:
@@ -849,7 +849,7 @@ Contributors:
 |0829|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count)|[](./answer/0829)|Easy|
 |0830|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area)|[](./answer/0830)|Easy|
 |0831|[Largest Sum of Averages](https://leetcode.com/problems/largest-sum-of-averages)|[](./answer/0831)|Medium|
-|0832|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning)|[](./answer/0832)|Medium|
+|0832|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning)|[JavaScript](./answer/0832)|Medium|
 |0833|[Bus Routes](https://leetcode.com/problems/bus-routes)|[](./answer/0833)|Hard|
 |0834|[Ambiguous Coordinates](https://leetcode.com/problems/ambiguous-coordinates)|[](./answer/0834)|Medium|
 |0835|[Linked List Components](https://leetcode.com/problems/linked-list-components)|[](./answer/0835)|Medium|
@@ -915,7 +915,7 @@ Contributors:
 |0902|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops)|[](./answer/0902)|Hard|
 |0903|[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7)|[](./answer/0903)|Medium|
 |0904|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees)|[](./answer/0904)|Easy|
-|0905|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)|[](./answer/0905)|Medium|
+|0905|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)|[JavaScript](./answer/0905)|Medium|
 |0906|[Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation)|[](./answer/0906)|Easy|
 |0907|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)|[](./answer/0907)|Medium|
 |0908|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)|[](./answer/0908)|Easy|
@@ -970,7 +970,7 @@ Contributors:
 |0958|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii)|[](./answer/0958)|Easy|
 |0959|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity)|[](./answer/0959)|Medium|
 |0960|[Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread)|[](./answer/0960)|Hard|
-|0961|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name)|[](./answer/0961)|Easy|
+|0961|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name)|[JavaScript](./answer/0961)|Easy|
 |0962|[Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing)|[](./answer/0962)|Medium|
 |0963|[Three Equal Parts](https://leetcode.com/problems/three-equal-parts)|[](./answer/0963)|Hard|
 |0964|[Minimize Malware Spread II](https://leetcode.com/problems/minimize-malware-spread-ii)|[](./answer/0964)|Hard|
