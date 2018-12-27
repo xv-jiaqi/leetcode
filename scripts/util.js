@@ -5,24 +5,21 @@ const { stringify, parse } = JSON;
 const { parse: urlParse } = require('url');
 
 const FILE_TYPE_MAP = {
-  'js': 'JavaScript',
-  'ts': 'TypeScript',
-  'py': 'Python',
-  'go': 'Go',
-  'c': 'C',
-  'cpp': 'C++',
-  'java': 'Java',
-  'sql': 'SQL',
+  js: 'JavaScript',
+  ts: 'TypeScript',
+  py: 'Python',
+  go: 'Go',
+  c: 'C',
+  cpp: 'C++',
+  java: 'Java',
+  sql: 'SQL',
+  swift: 'Swift',
 };
 
 const LEVEL_MAP = {
   1: 'Easy',
   2: 'Medium',
   3: 'Hard',
-};
-
-const symbolMap = {
-  ' ': '&nbsp;&nbsp;&nbsp;&nbsp;',
 };
 
 const symbolScape = target => protect => symbolPart => target.replace(new RegExp(`[^${protect}]`, 'g'), symbolPart);
@@ -251,20 +248,10 @@ function padStrBeauty(target, [
   target = target.toString();
 
   if (start) {
-    target = padFn(target, 'padStart', start, symbolS);
+    target = target.padStart(start, symbolS)
   }
   if (end) {
-    target = padFn(target, 'padEnd', end, symbolE);
-  }
-
-  function padFn(target, padType, se, symbol) {
-    let _target = target[padType](se, symbol);
-
-    if (symbol in symbolMap) {
-      _target = symbolScape(_target)(target)(symbolMap[symbol]);
-    }
-
-    return _target;
+    target = target.padEnd(end, symbolE)
   }
 
   return target;

@@ -32,17 +32,19 @@ Commit rule :exclamation:：<br>
 <!-- statisticsE -->
 
 Rank:
+<pre>
 <!-- rankS -->
-> 🥇 `JavaScript` ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□`42`/83<br>
-> 🥈 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□`40`/83<br>
-> 🥉 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`SQL` ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□&nbsp;&nbsp;&nbsp;&nbsp;`1`/83<br>
+🥇 JavaScript ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□  42/83
+🥈     Python ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□  40/83
+🥉        SQL ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   1/83
 <!-- rankE -->
+</pre>
 
 Contributors:
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
 |:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">77<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">48<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">77<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">50<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS

@@ -35,7 +35,7 @@ module.exports = {
 
   rank: {
     insertPoint: /(?<=<!--.*rankS.*-->)[\s\S]*(?=<!--.*rankE.*-->)/gm,
-    template: '> {{ranking}} {{lang}} {{solid}}{{blank}}{{count}}/{{total}}<br>',
+    template: '{{ranking}} {{lang}} {{solid}}{{blank}}{{count}}/{{total}}',
     strPad: {
       lang: [[10, ' ']],
       count: [[4]],

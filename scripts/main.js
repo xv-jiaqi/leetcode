@@ -82,7 +82,7 @@ function rankProcess() {
     const srcData = { ranking, lang, solid, blank, count, total: fileTotal };
 
     for (const [target, padRule] of Object.entries(strPad)) {
-      srcData[target] = padStrBeauty(`\`${srcData[target]}\``, padRule);
+      srcData[target] = padStrBeauty(`${srcData[target]}`, padRule);
     }
 
     return render(template, srcData);
