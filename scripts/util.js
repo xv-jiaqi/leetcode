@@ -22,8 +22,6 @@ const LEVEL_MAP = {
   3: 'Hard',
 };
 
-const symbolScape = target => protect => symbolPart => target.replace(new RegExp(`[^${protect}]`, 'g'), symbolPart);
-
 class Storage {
   constructor() {
     this.fileName = join(__dirname, '.cache');

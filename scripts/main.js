@@ -199,7 +199,7 @@ async function problemsProcess() {
 
   return questionList.map((
     {
-      stat: { question_id: id, question__title: title, question__title_slug: camelCase },
+      stat: { frontend_question_id: id, question__title: title, question__title_slug: camelCase },
       difficulty: { level: difficulty },
     }) => {
 
