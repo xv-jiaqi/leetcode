@@ -1,6 +1,6 @@
 const { resolve } = require('path');
-const { readFileSync, writeFile, existsSync } = require('fs');
-const { DirList, Http, appendFile, log, render, arrayFlatten, padStrBeauty, FILE_TYPE_MAP, LEVEL_MAP } = require('./util');
+const { readFileSync, writeFile, existsSync, appendFile } = require('fs');
+const { DirList, Http, appendFileText, log, render, arrayFlatten, padStrBeauty, FILE_TYPE_MAP, LEVEL_MAP } = require('./util');
 const { answerDir, readmeFile, problem, statistics, contributor, rank, stamp, readmeTemplate } = require('./config');
 
 const http = new Http();
@@ -32,6 +32,13 @@ const pStatistics = Promise.resolve(statisticsProcess());
 const pStamp = stampProcess();
 const pProblems = problemProcess();
 
+process.on('unhandledRejection', err => {
+  const logPath = resolve(`${__dirname}/.log`);
+  const text = `\n\n\n-【${Date()}】\n${err}`;
+  appendFile(logPath, text, e => e);
+  process.exit(0);
+});
+
 buildAnswerDocs();
 
 mountTemplate([pContributors, pProblems, pRank, pStatistics, pStamp]);
@@ -48,7 +55,7 @@ function mountTemplate(AllTask) {
                          renderTemplate,
                          insertPoint,
                        }) => {
-      text = appendFile(text, insertPoint, renderTemplate);
+      text = appendFileText(text, insertPoint, renderTemplate);
     });
   }).finally(() => {
     writeFile(readmeFile, text, err => {

@@ -19,6 +19,7 @@
 ```shell
 sh init-hook.sh
 ```
+If your commit is fail, you can use `git commit --no-verify` to bypass the hook.
 
 Commit rule :exclamation:：<br>
 - **Your solution can be placed in the `./answer/` directory, the directory name should be the problem `ID`**;
@@ -26,25 +27,26 @@ Commit rule :exclamation:：<br>
 
 ## Statistics
 <!-- statisticsS -->
-|Easy|Medium|Hard|<strong>Total</strong>|
+|Easy|Medium|Hard|<h3>Total</h3>|
 |:-:|:-:|:-:|:-:|
-|35|32|6|<strong>73</strong>|
+|35|32|6|<h3>73</h3>|
 <!-- statisticsE -->
 
 Rank:
 <pre>
 <!-- rankS -->
-🥇 JavaScript ■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□  42/83
-🥈     Python ■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□  40/83
-🥉        SQL ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   1/83
+🥇 JavaScript ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  42/84
+🥈     Python ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  40/84
+🥉         Go ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   1/84
+4        SQL ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   1/84
 <!-- rankE -->
 </pre>
 
 Contributors:
 <!-- contributorsS -->
-|<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
-|:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">77<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">50<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|
+|<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|<a href="https://github.com/inJs"><img alt="inJs" src="https://avatars3.githubusercontent.com/u/11471397?v=4&s=60"/><br>inJs</a>|
+|:-:|:-:|:-:|:-:|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">77<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">51<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">1<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
@@ -55,7 +57,7 @@ Contributors:
 <!-- problemS -->
 | ID | Title | Answer | Difficulty |
 |:--:|:------|:------:|:----------:|
-|0001|[Two Sum](https://leetcode.com/problems/two-sum)|[JavaScript](./answer/0001)|Easy|
+|0001|[Two Sum](https://leetcode.com/problems/two-sum)|[Go, JavaScript](./answer/0001)|Easy|
 |0002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[JavaScript, Python](./answer/0002)|Medium|
 |0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[JavaScript, Python](./answer/0003)|Medium|
 |0004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|[JavaScript, Python](./answer/0004)|Hard|

@@ -17,9 +17,9 @@ module.exports = {
   },
 
   statistics: {
-    template: `|Easy|Medium|Hard|<strong>Total</strong>|
+    template: `|Easy|Medium|Hard|<h3>Total</h3>|
 |:-:|:-:|:-:|:-:|
-|{{easy}}|{{medium}}|{{hard}}|<strong>{{total}}</strong>|`,
+|{{easy}}|{{medium}}|{{hard}}|<h3>{{total}}</h3>|`,
     insertPoint: /(?<=<!--.*statisticsS.*-->)[\s\S]*(?=<!--.*statisticsE.*-->)/gm,
   },
 
@@ -40,7 +40,7 @@ module.exports = {
       lang: [[10, ' ']],
       count: [[4]],
     },
-    fillBar: 40,
+    fillBar: 70,
     rankSymbol: ['🥇', '🥈', '🥉'],
   },
 
