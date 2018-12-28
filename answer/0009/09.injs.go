@@ -23,6 +23,7 @@ func isPalindrome(x int) bool {
 	if(x < 10) {
 		return true
 	}
+
 	if (x != reverse(x)) {
 		return false
 	}
