@@ -17,14 +17,17 @@ module.exports = {
   },
 
   statistics: {
-    template: `|Easy|Medium|Hard|<strong>Total</strong>|
+    template: `|Easy|Medium|Hard|<h3>Total</h3>|
 |:-:|:-:|:-:|:-:|
-|{{easy}}|{{medium}}|{{hard}}|<strong>{{total}}</strong>|`,
+|{{easy}}|{{medium}}|{{hard}}|<h3>{{total}}</h3>|`,
     insertPoint: /(?<=<!--.*statisticsS.*-->)[\s\S]*(?=<!--.*statisticsE.*-->)/gm,
   },
 
   contributor: {
-    originApi: 'https://api.github.com/repos/kkxujq/leetcode/contributors',
+    originApi() {
+      const accessToken = Buffer.from('NTAzOGE1NzdlZWE2ZTNkMjU5ZWYyNTY4YmVjZTUxZDg0N2FiNDlhZQ', 'base64').toString();
+      return `https://api.github.com/repos/kkxujq/leetcode/contributors?access_token=${accessToken}`;
+    },
     insertPoint: /(?<=<!--.*contributorsS.*-->)[\s\S]*(?=<!--.*contributorsE.*-->)/gm,
     template: [
       '|<a href="https://github.com/{{login}}"><img alt="{{login}}" src="{{avatar_url}}&s=60"/><br>{{login}}</a>',
@@ -40,8 +43,8 @@ module.exports = {
       lang: [[10, ' ']],
       count: [[4]],
     },
-    fillBar: 40,
-    rankSymbol: ['🥇', '🥈', '🥉'],
+    fillBar: 70,
+    rankSymbol: ['🥇', '🥈', '🥉', '4️⃣', '5️⃣', '6️⃣', '7️⃣', '8️⃣'],
   },
 
   stamp: {

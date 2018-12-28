@@ -1,11 +1,11 @@
 const { resolve } = require('path');
-const { readFileSync, writeFile, existsSync } = require('fs');
-const { DirList, Http, appendFile, log, render, arrayFlatten, padStrBeauty, FILE_TYPE_MAP, LEVEL_MAP } = require('./util');
+const { readFileSync, writeFile, existsSync, appendFile } = require('fs');
+const { DirList, Http, appendFileText, log, render, arrayFlatten, padStrBeauty, FILE_TYPE_MAP, LEVEL_MAP } = require('./util');
 const { answerDir, readmeFile, problem, statistics, contributor, rank, stamp, readmeTemplate } = require('./config');
 
 const http = new Http();
 const problems = http.get(problem.originPath, { maxAge: 3600 * 24 * 7 });
-const contributors = http.request(contributor.originApi, {
+const contributors = http.request(contributor.originApi(), {
   headers: { 'user-agent': 'node.js' },
 });
 
@@ -32,6 +32,13 @@ const pStatistics = Promise.resolve(statisticsProcess());
 const pStamp = stampProcess();
 const pProblems = problemProcess();
 
+process.on('unhandledRejection', err => {
+  const logPath = resolve(`${__dirname}/.log`);
+  const text = `\n\n\n-【${Date()}】\n${err}`;
+  appendFile(logPath, text, e => e);
+  process.exit(0);
+});
+
 buildAnswerDocs();
 
 mountTemplate([pContributors, pProblems, pRank, pStatistics, pStamp]);
@@ -43,14 +50,17 @@ mountTemplate([pContributors, pProblems, pRank, pStatistics, pStamp]);
 function mountTemplate(AllTask) {
   let text = readFileSync(readmeFile, 'utf8');
 
-  Promise.all(AllTask).then(taskQuery => {
-    taskQuery.forEach(({
-                         renderTemplate,
-                         insertPoint,
-                       }) => {
-      text = appendFile(text, insertPoint, renderTemplate);
-    });
-  }).finally(() => {
+  Promise.all(AllTask)
+    .then(taskQuery => {
+      taskQuery.forEach(({
+                           renderTemplate,
+                           insertPoint,
+                         }) => {
+        text = appendFileText(text, insertPoint, renderTemplate);
+      });
+
+      return text;
+    }).then(text => {
     writeFile(readmeFile, text, err => {
       if (err) throw err;
 
@@ -130,9 +140,8 @@ async function stampProcess() {
   } catch (e) {
     throw e;
   }
-
   const data = {
-    count: Math.ceil(allAnswerNum / allProblemsNum),
+    count: Math.ceil(allAnswerNum * 100 / allProblemsNum),
   };
 
   return {

@@ -204,13 +204,13 @@ class DirList {
 }
 
 /**
- * appendFile
+ * appendFileText
  * @param oldFileText
  * @param insertPoint
  * @param tplContent
  * @returns {string | * | void}
  */
-function appendFile(oldFileText, insertPoint, tplContent) {
+function appendFileText(oldFileText, insertPoint, tplContent) {
   return oldFileText.replace(insertPoint, tplContent);
 }
 
@@ -275,7 +275,7 @@ function arrayFlatten(arr = []) {
 module.exports = {
   DirList,
   Http,
-  appendFile,
+  appendFileText,
   log,
   render,
   arrayFlatten,
