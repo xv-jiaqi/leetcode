@@ -4,7 +4,7 @@ const { DirList, Http, appendFileText, log, render, arrayFlatten, padStrBeauty, 
 const { answerDir, readmeFile, problem, statistics, contributor, rank, stamp, readmeTemplate } = require('./config');
 
 const http = new Http();
-const problems = http.get(problem.originPath, { maxAge: 3600 * 24 * 7 });
+const problems = http.get(problem.originPath, { maxAge: 3600 * 24 * 2 });
 const contributors = http.request(contributor.originApi(), {
   headers: { 'user-agent': 'node.js' },
 });
