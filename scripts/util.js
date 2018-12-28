@@ -5,23 +5,21 @@ const { stringify, parse } = JSON;
 const { parse: urlParse } = require('url');
 
 const FILE_TYPE_MAP = {
-  'js': 'JavaScript',
-  'ts': 'TypeScript',
-  'py': 'Python',
-  'go': 'Go',
-  'c': 'C',
-  'cpp': 'C++',
-  'java': 'Java',
+  js: 'JavaScript',
+  ts: 'TypeScript',
+  py: 'Python',
+  go: 'Go',
+  c: 'C',
+  cpp: 'C++',
+  java: 'Java',
+  sql: 'SQL',
+  swift: 'Swift',
 };
 
 const LEVEL_MAP = {
   1: 'Easy',
   2: 'Medium',
   3: 'Hard',
-};
-
-const symbolMap = {
-  ' ': '&nbsp;&nbsp;&nbsp;&nbsp;',
 };
 
 const symbolScape = target => protect => symbolPart => target.replace(new RegExp(`[^${protect}]`, 'g'), symbolPart);
@@ -185,7 +183,7 @@ class DirList {
       if (statSync(dir).isDirectory()) {
         fileTypes = fileTypes.concat(this.getFileTypes(dir, root));
       } else {
-        const match = /(?<=.+\.)\w+/i.exec(d);
+        const match = /(?<=\S+\.)\w+$/i.exec(d);
 
         if (match && match[0].toLowerCase() in FILE_TYPE_MAP) {
           fileTypes.push(match[0].toLowerCase());
@@ -206,13 +204,13 @@ class DirList {
 }
 
 /**
- * appendFile
+ * appendFileText
  * @param oldFileText
  * @param insertPoint
  * @param tplContent
  * @returns {string | * | void}
  */
-function appendFile(oldFileText, insertPoint, tplContent) {
+function appendFileText(oldFileText, insertPoint, tplContent) {
   return oldFileText.replace(insertPoint, tplContent);
 }
 
@@ -250,20 +248,10 @@ function padStrBeauty(target, [
   target = target.toString();
 
   if (start) {
-    target = padFn(target, 'padStart', start, symbolS);
+    target = target.padStart(start, symbolS)
   }
   if (end) {
-    target = padFn(target, 'padEnd', end, symbolE);
-  }
-
-  function padFn(target, padType, se, symbol) {
-    let _target = target[padType](se, symbol);
-
-    if (symbol in symbolMap) {
-      _target = symbolScape(_target)(target)(symbolMap[symbol]);
-    }
-
-    return _target;
+    target = target.padEnd(end, symbolE)
   }
 
   return target;
@@ -287,7 +275,7 @@ function arrayFlatten(arr = []) {
 module.exports = {
   DirList,
   Http,
-  appendFile,
+  appendFileText,
   log,
   render,
   arrayFlatten,

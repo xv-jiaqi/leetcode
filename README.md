@@ -1,6 +1,6 @@
 # Leetcode
 
-> Some [Leetcode](https://leetcode.com) algorithm and data structure answer wrote by Javascript/Python ... :100:.
+> Some [Leetcode](https://leetcode.com) algorithm and data structure answer wrote by Python/JavaScript ... :100:.
 
 <!-- stampS -->
 [![Progress](http://progressed.io/bar/1?title=done)](https://leetcode.com/problemset/all/)<!-- stampE -->
@@ -9,35 +9,44 @@
 [![GitHub stars](https://img.shields.io/github/stars/kkxujq/leetcode.svg)](https://github.com/kkxujq/leetcode/stargazers)
 [![GitHub license](https://img.shields.io/github/license/kkxujq/leetcode.svg)](https://github.com/kkxujq/leetcode/blob/master/LICENSE)
 
-![leetcode](./scripts/leetcode-logo.png)
+<p align="center"><img src="./scripts/leetcode-logo.png"/></p>
 
 [TOC]
 
 ## Usage
 
-**`init-hook.sh` needs to be executed after the initial local repository:**
+**Initialize the repository:**
 ```shell
 sh init-hook.sh
 ```
 
-Commit rule :exclamation:：<br>
+bypass the hook:
+```shell
+git commit --no-verify
+```
+
+:bangbang: Commit rule：<br>
 - **Your solution can be placed in the `./answer/` directory, the directory name should be the problem `ID`**;
 - `README` does not need to be manually modified.
 
 ## Statistics
 <!-- statisticsS -->
-|Easy|Medium|Hard|<strong>Total</strong>|
+|Easy|Medium|Hard|<h3>Total</h3>|
 |:-:|:-:|:-:|:-:|
-|31|30|6|<strong>67</strong>|
+|35|32|6|<h3>73</h3>|
 <!-- statisticsE -->
 
-Rank:
+:clap: Rank:
+<pre>
 <!-- rankS -->
-> 🥇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Python` ■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□`41`/75<br>
-> 🥈 `JavaScript` ■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□`34`/75<br>
+🥇 JavaScript ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  42/84
+🥈     Python ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  40/84
+🥉         Go ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   1/84
+4️⃣        SQL ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   1/84
 <!-- rankE -->
+</pre>
 
-Contributors:
+:two_men_holding_hands: Contributors:
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|<a href="https://github.com/inJs"><img alt="inJs" src="https://avatars3.githubusercontent.com/u/11471397?v=4&s=60"/><br>inJs</a>|
 |:-:|:-:|:-:|:-:|
@@ -52,7 +61,7 @@ Contributors:
 <!-- problemS -->
 | ID | Title | Answer | Difficulty |
 |:--:|:------|:------:|:----------:|
-|0001|[Two Sum](https://leetcode.com/problems/two-sum)|[JavaScript](./answer/0001)|Easy|
+|0001|[Two Sum](https://leetcode.com/problems/two-sum)|[Go, JavaScript](./answer/0001)|Easy|
 |0002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[JavaScript, Python](./answer/0002)|Medium|
 |0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[JavaScript, Python](./answer/0003)|Medium|
 |0004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|[JavaScript, Python](./answer/0004)|Hard|
@@ -62,10 +71,10 @@ Contributors:
 |0008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)|[JavaScript](./answer/0008)|Medium|
 |0009|[Palindrome Number](https://leetcode.com/problems/palindrome-number)|[JavaScript, Python](./answer/0009)|Easy|
 |0010|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching)|[JavaScript](./answer/0010)|Hard|
-|0011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water)|[JavaScript, Python](./answer/0011)|Medium|
+|0011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water)|[JavaScript](./answer/0011)|Medium|
 |0012|[Integer to Roman](https://leetcode.com/problems/integer-to-roman)|[JavaScript](./answer/0012)|Medium|
 |0013|[Roman to Integer](https://leetcode.com/problems/roman-to-integer)|[JavaScript](./answer/0013)|Easy|
-|0014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[JavaScript](./answer/0014)|Easy|
+|0014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[JavaScript, Python](./answer/0014)|Easy|
 |0015|[3Sum](https://leetcode.com/problems/3sum)|[JavaScript](./answer/0015)|Medium|
 |0016|[3Sum Closest](https://leetcode.com/problems/3sum-closest)|[JavaScript](./answer/0016)|Medium|
 |0017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[JavaScript](./answer/0017)|Medium|
@@ -120,7 +129,7 @@ Contributors:
 |0066|[Plus One](https://leetcode.com/problems/plus-one)|[Python](./answer/0066)|Easy|
 |0067|[Add Binary](https://leetcode.com/problems/add-binary)|[](./answer/0067)|Easy|
 |0068|[Text Justification](https://leetcode.com/problems/text-justification)|[](./answer/0068)|Hard|
-|0069|[Sqrt(x)](https://leetcode.com/problems/sqrtx)|[](./answer/0069)|Easy|
+|0069|[Sqrt(x)](https://leetcode.com/problems/sqrtx)|[JavaScript](./answer/0069)|Easy|
 |0070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|[Python](./answer/0070)|Easy|
 |0071|[Simplify Path](https://leetcode.com/problems/simplify-path)|[](./answer/0071)|Medium|
 |0072|[Edit Distance](https://leetcode.com/problems/edit-distance)|[](./answer/0072)|Hard|
@@ -173,7 +182,7 @@ Contributors:
 |0119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)|[](./answer/0119)|Easy|
 |0120|[Triangle](https://leetcode.com/problems/triangle)|[](./answer/0120)|Medium|
 |0121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)|[JavaScript, Python](./answer/0121)|Easy|
-|0122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[](./answer/0122)|Easy|
+|0122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[JavaScript](./answer/0122)|Easy|
 |0123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii)|[](./answer/0123)|Hard|
 |0124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)|[](./answer/0124)|Hard|
 |0125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome)|[](./answer/0125)|Easy|
@@ -508,7 +517,7 @@ Contributors:
 |0460|[LFU Cache](https://leetcode.com/problems/lfu-cache)|[](./answer/0460)|Hard|
 |0461|[Hamming Distance](https://leetcode.com/problems/hamming-distance)|[](./answer/0461)|Easy|
 |0462|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii)|[](./answer/0462)|Medium|
-|0463|[Island Perimeter](https://leetcode.com/problems/island-perimeter)|[Python](./answer/0463)|Easy|
+|0463|[Island Perimeter](https://leetcode.com/problems/island-perimeter)|[](./answer/0463)|Easy|
 |0464|[Can I Win](https://leetcode.com/problems/can-i-win)|[](./answer/0464)|Medium|
 |0465|[Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing)|[](./answer/0465)|Hard|
 |0466|[Count The Repetitions](https://leetcode.com/problems/count-the-repetitions)|[](./answer/0466)|Hard|
@@ -624,7 +633,7 @@ Contributors:
 |0592|[Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction)|[](./answer/0592)|Medium|
 |0593|[Valid Square](https://leetcode.com/problems/valid-square)|[](./answer/0593)|Medium|
 |0594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence)|[](./answer/0594)|Easy|
-|0595|[Big Countries](https://leetcode.com/problems/big-countries)|[](./answer/0595)|Easy|
+|0595|[Big Countries](https://leetcode.com/problems/big-countries)|[SQL](./answer/0595)|Easy|
 |0596|[Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students)|[](./answer/0596)|Easy|
 |0597|[Friend Requests I: Overall Acceptance Rate](https://leetcode.com/problems/friend-requests-i-overall-acceptance-rate)|[](./answer/0597)|Easy|
 |0598|[Range Addition II](https://leetcode.com/problems/range-addition-ii)|[](./answer/0598)|Easy|
@@ -787,7 +796,7 @@ Contributors:
 |0768|[Partition Labels](https://leetcode.com/problems/partition-labels)|[](./answer/0768)|Medium|
 |0769|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign)|[](./answer/0769)|Medium|
 |0770|[Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands)|[](./answer/0770)|Hard|
-|0771|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree)|[Python](./answer/0771)|Hard|
+|0771|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree)|[JavaScript, Python](./answer/0771)|Hard|
 |0772|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree)|[](./answer/0772)|Easy|
 |0773|[Quad Tree Intersection](https://leetcode.com/problems/quad-tree-intersection)|[](./answer/0773)|Easy|
 |0774|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree)|[](./answer/0774)|Easy|
@@ -848,7 +857,7 @@ Contributors:
 |0829|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count)|[](./answer/0829)|Easy|
 |0830|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area)|[](./answer/0830)|Easy|
 |0831|[Largest Sum of Averages](https://leetcode.com/problems/largest-sum-of-averages)|[](./answer/0831)|Medium|
-|0832|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning)|[](./answer/0832)|Medium|
+|0832|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning)|[JavaScript](./answer/0832)|Medium|
 |0833|[Bus Routes](https://leetcode.com/problems/bus-routes)|[](./answer/0833)|Hard|
 |0834|[Ambiguous Coordinates](https://leetcode.com/problems/ambiguous-coordinates)|[](./answer/0834)|Medium|
 |0835|[Linked List Components](https://leetcode.com/problems/linked-list-components)|[](./answer/0835)|Medium|
@@ -914,7 +923,7 @@ Contributors:
 |0902|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops)|[](./answer/0902)|Hard|
 |0903|[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7)|[](./answer/0903)|Medium|
 |0904|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees)|[](./answer/0904)|Easy|
-|0905|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)|[](./answer/0905)|Medium|
+|0905|[Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)|[JavaScript](./answer/0905)|Medium|
 |0906|[Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation)|[](./answer/0906)|Easy|
 |0907|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)|[](./answer/0907)|Medium|
 |0908|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)|[](./answer/0908)|Easy|
@@ -938,7 +947,7 @@ Contributors:
 |0926|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern)|[](./answer/0926)|Medium|
 |0927|[Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths)|[](./answer/0927)|Hard|
 |0928|[Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes)|[](./answer/0928)|Easy|
-|0929|[Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings)|[](./answer/0929)|Easy|
+|0929|[Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings)|[JavaScript](./answer/0929)|Easy|
 |0930|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees)|[](./answer/0930)|Medium|
 |0931|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack)|[](./answer/0931)|Hard|
 |0932|[Monotonic Array](https://leetcode.com/problems/monotonic-array)|[](./answer/0932)|Easy|
@@ -969,7 +978,7 @@ Contributors:
 |0958|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii)|[](./answer/0958)|Easy|
 |0959|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity)|[](./answer/0959)|Medium|
 |0960|[Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread)|[](./answer/0960)|Hard|
-|0961|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name)|[](./answer/0961)|Easy|
+|0961|[Long Pressed Name](https://leetcode.com/problems/long-pressed-name)|[JavaScript](./answer/0961)|Easy|
 |0962|[Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing)|[](./answer/0962)|Medium|
 |0963|[Three Equal Parts](https://leetcode.com/problems/three-equal-parts)|[](./answer/0963)|Hard|
 |0964|[Minimize Malware Spread II](https://leetcode.com/problems/minimize-malware-spread-ii)|[](./answer/0964)|Hard|
@@ -1005,6 +1014,10 @@ Contributors:
 |0998|[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree)|[](./answer/0998)|Medium|
 |0999|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes)|[](./answer/0999)|Medium|
 |1000|[Delete Columns to Make Sorted III](https://leetcode.com/problems/delete-columns-to-make-sorted-iii)|[](./answer/1000)|Hard|
+|1001|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array)|[](./answer/1001)|Easy|
+|1002|[Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp)|[](./answer/1002)|Medium|
+|1003|[Minimum Area Rectangle II](https://leetcode.com/problems/minimum-area-rectangle-ii)|[](./answer/1003)|Medium|
+|1004|[Least Operators to Express Number](https://leetcode.com/problems/least-operators-to-express-number)|[](./answer/1004)|Hard|
 <!-- problemE -->
 
 [回到顶部 :top:](#readme)
