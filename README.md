@@ -39,10 +39,10 @@ git commit --no-verify
 :clap: Rank:
 <pre>
 <!-- rankS -->
-🥇 JavaScript ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  42/84
-🥈     Python ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  40/84
-🥉         Go ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   1/84
-4️⃣        SQL ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   1/84
+🥇     Python ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  43/86
+🥈 JavaScript ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  41/86
+🥉         Go ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   1/86
+4️⃣        SQL ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   1/86
 <!-- rankE -->
 </pre>
 
@@ -61,7 +61,7 @@ git commit --no-verify
 <!-- problemS -->
 | ID | Title | Answer | Difficulty |
 |:--:|:------|:------:|:----------:|
-|0001|[Two Sum](https://leetcode.com/problems/two-sum)|[Go, JavaScript](./answer/0001)|Easy|
+|0001|[Two Sum](https://leetcode.com/problems/two-sum)|[Go, JavaScript, Python](./answer/0001)|Easy|
 |0002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[JavaScript, Python](./answer/0002)|Medium|
 |0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[JavaScript, Python](./answer/0003)|Medium|
 |0004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|[JavaScript, Python](./answer/0004)|Hard|
@@ -71,7 +71,7 @@ git commit --no-verify
 |0008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)|[JavaScript](./answer/0008)|Medium|
 |0009|[Palindrome Number](https://leetcode.com/problems/palindrome-number)|[JavaScript, Python](./answer/0009)|Easy|
 |0010|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching)|[JavaScript](./answer/0010)|Hard|
-|0011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water)|[JavaScript](./answer/0011)|Medium|
+|0011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water)|[JavaScript, Python](./answer/0011)|Medium|
 |0012|[Integer to Roman](https://leetcode.com/problems/integer-to-roman)|[JavaScript](./answer/0012)|Medium|
 |0013|[Roman to Integer](https://leetcode.com/problems/roman-to-integer)|[JavaScript](./answer/0013)|Easy|
 |0014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[JavaScript, Python](./answer/0014)|Easy|
@@ -182,7 +182,7 @@ git commit --no-verify
 |0119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)|[](./answer/0119)|Easy|
 |0120|[Triangle](https://leetcode.com/problems/triangle)|[](./answer/0120)|Medium|
 |0121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)|[JavaScript, Python](./answer/0121)|Easy|
-|0122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[JavaScript](./answer/0122)|Easy|
+|0122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[](./answer/0122)|Easy|
 |0123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii)|[](./answer/0123)|Hard|
 |0124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)|[](./answer/0124)|Hard|
 |0125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome)|[](./answer/0125)|Easy|
@@ -517,7 +517,7 @@ git commit --no-verify
 |0460|[LFU Cache](https://leetcode.com/problems/lfu-cache)|[](./answer/0460)|Hard|
 |0461|[Hamming Distance](https://leetcode.com/problems/hamming-distance)|[](./answer/0461)|Easy|
 |0462|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii)|[](./answer/0462)|Medium|
-|0463|[Island Perimeter](https://leetcode.com/problems/island-perimeter)|[](./answer/0463)|Easy|
+|0463|[Island Perimeter](https://leetcode.com/problems/island-perimeter)|[Python](./answer/0463)|Easy|
 |0464|[Can I Win](https://leetcode.com/problems/can-i-win)|[](./answer/0464)|Medium|
 |0465|[Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing)|[](./answer/0465)|Hard|
 |0466|[Count The Repetitions](https://leetcode.com/problems/count-the-repetitions)|[](./answer/0466)|Hard|
