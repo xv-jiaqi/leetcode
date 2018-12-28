@@ -3,7 +3,7 @@
 > Some [Leetcode](https://leetcode.com) algorithm and data structure answer wrote by Python/JavaScript ... :100:.
 
 <!-- stampS -->
-[![Progress](http://progressed.io/bar/1?title=done)](https://leetcode.com/problemset/all/)<!-- stampE -->
+[![Progress](http://progressed.io/bar/12?title=done)](https://leetcode.com/problemset/all/)<!-- stampE -->
 [![codebeat badge](https://codebeat.co/badges/348b71c8-c264-4483-a194-079ad959a6ed)](https://codebeat.co/projects/github-com-kkxujq-leetcode-master)
 [![GitHub issues](https://img.shields.io/github/issues/kkxujq/leetcode.svg)](https://github.com/kkxujq/leetcode/issues)
 [![GitHub stars](https://img.shields.io/github/stars/kkxujq/leetcode.svg)](https://github.com/kkxujq/leetcode/stargazers)
@@ -50,7 +50,7 @@ git commit --no-verify
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|<a href="https://github.com/inJs"><img alt="inJs" src="https://avatars3.githubusercontent.com/u/11471397?v=4&s=60"/><br>inJs</a>|
 |:-:|:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">81<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">53<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">4<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">1<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">81<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">53<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">5<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">1<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS

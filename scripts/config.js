@@ -24,7 +24,10 @@ module.exports = {
   },
 
   contributor: {
-    originApi: 'https://api.github.com/repos/kkxujq/leetcode/contributors',
+    originApi() {
+      const accessToken = Buffer.from('NTAzOGE1NzdlZWE2ZTNkMjU5ZWYyNTY4YmVjZTUxZDg0N2FiNDlhZQ', 'base64').toString();
+      return `https://api.github.com/repos/kkxujq/leetcode/contributors?access_token=${accessToken}`;
+    },
     insertPoint: /(?<=<!--.*contributorsS.*-->)[\s\S]*(?=<!--.*contributorsE.*-->)/gm,
     template: [
       '|<a href="https://github.com/{{login}}"><img alt="{{login}}" src="{{avatar_url}}&s=60"/><br>{{login}}</a>',

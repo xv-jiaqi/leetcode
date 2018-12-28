@@ -5,7 +5,7 @@ const { answerDir, readmeFile, problem, statistics, contributor, rank, stamp, re
 
 const http = new Http();
 const problems = http.get(problem.originPath, { maxAge: 3600 * 24 * 7 });
-const contributors = http.request(contributor.originApi, {
+const contributors = http.request(contributor.originApi(), {
   headers: { 'user-agent': 'node.js' },
 });
 
@@ -50,14 +50,17 @@ mountTemplate([pContributors, pProblems, pRank, pStatistics, pStamp]);
 function mountTemplate(AllTask) {
   let text = readFileSync(readmeFile, 'utf8');
 
-  Promise.all(AllTask).then(taskQuery => {
-    taskQuery.forEach(({
-                         renderTemplate,
-                         insertPoint,
-                       }) => {
-      text = appendFileText(text, insertPoint, renderTemplate);
-    });
-  }).finally(() => {
+  Promise.all(AllTask)
+    .then(taskQuery => {
+      taskQuery.forEach(({
+                           renderTemplate,
+                           insertPoint,
+                         }) => {
+        text = appendFileText(text, insertPoint, renderTemplate);
+      });
+
+      return text;
+    }).then(text => {
     writeFile(readmeFile, text, err => {
       if (err) throw err;
 
@@ -137,9 +140,8 @@ async function stampProcess() {
   } catch (e) {
     throw e;
   }
-
   const data = {
-    count: Math.ceil(allAnswerNum / allProblemsNum),
+    count: Math.ceil(allAnswerNum * 100 / allProblemsNum),
   };
 
   return {
