@@ -39,10 +39,10 @@ git commit --no-verify
 :clap: Rank:
 <pre>
 <!-- rankS -->
-🥇 JavaScript ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□  74/120
-🥈     Python ■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  43/120
-🥉        SQL ■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   2/120
-4️⃣         Go ■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   1/120
+🥇 JavaScript ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□  74/121
+🥈     Python ■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  43/121
+🥉         Go ■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   2/121
+4️⃣        SQL ■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   2/121
 <!-- rankE -->
 </pre>
 
@@ -50,7 +50,7 @@ git commit --no-verify
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|<a href="https://github.com/inJs"><img alt="inJs" src="https://avatars3.githubusercontent.com/u/11471397?v=4&s=60"/><br>inJs</a>|
 |:-:|:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">81<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">54<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">5<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">3<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">81<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">56<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">5<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">5<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
@@ -67,7 +67,7 @@ git commit --no-verify
 |0004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|[JavaScript, Python](./answer/0004)|Hard|
 |0005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)|[JavaScript, Python](./answer/0005)|Medium|
 |0006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)|[JavaScript](./answer/0006)|Medium|
-|0007|[Reverse Integer](https://leetcode.com/problems/reverse-integer)|[JavaScript](./answer/0007)|Easy|
+|0007|[Reverse Integer](https://leetcode.com/problems/reverse-integer)|[Go, JavaScript](./answer/0007)|Easy|
 |0008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)|[JavaScript](./answer/0008)|Medium|
 |0009|[Palindrome Number](https://leetcode.com/problems/palindrome-number)|[JavaScript, Python](./answer/0009)|Easy|
 |0010|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching)|[JavaScript](./answer/0010)|Hard|
