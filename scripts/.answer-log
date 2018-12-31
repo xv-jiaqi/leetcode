@@ -1,67 +1,21 @@
 THIS IS ALL ANSWER LOGS
 
-../answer/0001/01.go     /01.go |  go
-../answer/0001/01.js     /01.js |  js
-../answer/0001/01.py     /01.py |  py
-../answer/0001/README.md      |  
-../answer/0002/02.js     /02.js |  js
-../answer/0002/02.py     /02.py |  py
-../answer/0002/README.md      |  
-../answer/0003/03.js     /03.js |  js
-../answer/0003/03.py     /03.py |  py
-../answer/0003/README.md      |  
-../answer/0004/04.js     /04.js |  js
-../answer/0004/04.py     /04.py |  py
-../answer/0004/README.md      |  
-../answer/0005/05.js     /05.js |  js
-../answer/0005/05.py     /05.py |  py
-../answer/0005/README.md      |  
-../answer/0006/06.js     /06.js |  js
-../answer/0006/README.md      |  
-../answer/0007/07.go     /07.go |  go
-../answer/0007/07.js     /07.js |  js
-../answer/0007/README.md      |  
-../answer/0008/08.js     /08.js |  js
-../answer/0008/README.md      |  
-../answer/0009/09.injs.go     /09.injs.go |  injs
-go
-../answer/0009/09.js     /09.js |  js
-../answer/0009/09.py     /09.py |  py
-../answer/0009/README.md      |  
-../answer/0010/10.js     /10.js | 10 js
-../answer/0010/README.md      |  
-../answer/0011/11.js     /11.js | 11 js
-../answer/0011/11.py     /11.py | 11 py
-../answer/0011/README.md      |  
-../answer/0012/12.js     /12.js | 12 js
-../answer/0012/README.md      |  
-../answer/0013/13.js     /13.js | 13 js
-../answer/0013/README.md      |  
-../answer/0014/14.js     /14.js | 14 js
-../answer/0014/14.py     /14.py | 14 py
-../answer/0014/README.md      |  
-../answer/0015/15.js     /15.js | 15 js
-../answer/0015/README.md      |  
-../answer/0016/16.js     /16.js | 16 js
-../answer/0016/README.md      |  
-../answer/0017/17.js     /17.js | 17 js
-../answer/0017/README.md      |  
-../answer/0018/18.js     /18.js | 18 js
-../answer/0018/README.md      |  
-../answer/0019/19.js     /19.js | 19 js
-../answer/0019/README.md      |  
-../answer/0020/20.js     /20.js | 20 js
-../answer/0020/README.md      |  
-../answer/0021/21.js     /21.js | 21 js
-../answer/0021/21.py     /21.py | 21 py
-../answer/0021/README.md      |  
-../answer/0022/22.js     /22.js | 22 js
-../answer/0022/README.md      |  
-../answer/0023/23.js     /23.js | 23 js
-../answer/0023/README.md      |  
-../answer/0024/24.js     /24.js | 24 js
-../answer/0024/README.md      |  
-../answer/0025/25.js     /25.js | 25 js
-../answer/0025/README.md      |  
-../answer/0026/26.js     /26.js | 26 js
-../answer/0026/README.md      |  
+../answer/0001/01.go               【filename】: 01.go              | id: 1    lang: go   comment:         
+../answer/0001/01.js               【filename】: 01.js              | id: 1    lang: js   comment:         
+../answer/0001/01.py               【filename】: 01.py              | id: 1    lang: py   comment:         
+../answer/0001/README.md           【filename】:                    | id:      lang:      comment:         
+../answer/0002/02.js               【filename】: 02.js              | id: 2    lang: js   comment:         
+../answer/0002/02.py               【filename】: 02.py              | id: 2    lang: py   comment:         
+../answer/0002/README.md           【filename】:                    | id:      lang:      comment:         
+../answer/0003/03.js               【filename】: 03.js              | id: 3    lang: js   comment:         
+../answer/0003/03.py               【filename】: 03.py              | id: 3    lang: py   comment:         
+../answer/0003/README.md           【filename】:                    | id:      lang:      comment:         
+../answer/0004/04.js               【filename】: 04.js              | id: 4    lang: js   comment:         
+../answer/0004/04.py               【filename】: 04.py              | id: 4    lang: py   comment:         
+../answer/0004/README.md           【filename】:                    | id:      lang:      comment:         
+../answer/0005/05.js               【filename】: 05.js              | id: 5    lang: js   comment:         
+../answer/0005/05.py               【filename】: 05.py              | id: 5    lang: py   comment:         
+../answer/0005/README.md           【filename】:                    | id:      lang:      comment:         
+../answer/0006/06.js               【filename】: 06.js              | id: 6    lang: js   comment:         
+../answer/0006/README.md           【filename】:                    | id:      lang:      comment:         
+../answer/0007/07.go               【filename】: 07.go              | id: 7    lang: go   comment:         
