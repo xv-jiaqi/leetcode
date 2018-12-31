@@ -1,7 +1,10 @@
 #! /usr/bin/bash
+# bash version need 4.4+, macOs default is 3.2
+
+langArr=(js ts py go c cpp java sql swift)
 
 # name map
-declare map=(["kongtong"]="inJs" ["kkxujq"]="kkxujq" ["linzhming27"]="linningmii" ["zyct"]="zy445566")
+declare -A nameMap=(["kongtong"]="inJs" ["kkxujq"]="kkxujq" ["linzhming27"]="linningmii" ["zyct"]="zy445566")
 
 function getdirfile() {
   for file in $1
@@ -37,18 +40,22 @@ do
   lang=`echo $filename | grep -E -o -i '[[:lower:]]+$'`
   comment=`echo $filename | grep -E -o -i '\.{1}.*\.{1}'`
 
-
-  # printf "%-34s 【filename】: %-18s | id: %-4s lang: %-4s comment: %-8s\n" $ansFile $filename $id $lang $comment
+# printf "%-34s 【filename】: %-18s | id: %-4s lang: %-4s comment: %-8s\n" $ansFile $filename $id $lang $comment
   printf "%-34s 【filename】: %-18s | id: %-4s lang: %-4s comment: %-8s\n" $ansFile $filename $id $lang $comment >> .answer-log
 
-  ename=`git log --pretty=format:"%ae" --reverse $ansFile | grep -E -o -i -m 1 '^[[:lower:]|[:digit:]|[:upper:]|\.]+' | head -1 | sed 's/\.//g'`
+  if [ ! -z $id ]; then
+    logName=`git log --pretty=format:"%ae" --reverse $ansFile | grep -E -o -i -m 1 '^[[:lower:]|[:digit:]|[:upper:]|\.]+' | head -1 | sed 's/\.//g'`
+    githubName=${nameMap[$logName]}
 
-  echo "$ename  ${map[$ename]}"
+    dir=`echo $ansFile | grep -E -o '.+\/'`
 
-  dir=`echo $ansFile | grep -E -o '.+\/'`
-  newName="$dir$id.$lang"
-
-  mv $ansFile $newName
-
+    if [ ! $comment ]; then
+      newFileName="$dir$id.$githubName.$lang"
+    else
+      newFileName="$dir$id.$githubName$comment$lang"
+    fi
+    echo $ansFile       $newFileName
+    mv $ansFile $newFileName
+  fi
 done
 
