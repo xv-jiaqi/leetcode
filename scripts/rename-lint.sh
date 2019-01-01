@@ -55,7 +55,9 @@ do
       newFileName="$dir$id.$githubName$comment$lang"
     fi
     echo $ansFile       $newFileName
-    mv $ansFile $newFileName
+
+    # rename !!!
+    # mv $ansFile $newFileName
   fi
 done
 
