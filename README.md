@@ -39,18 +39,18 @@ git commit --no-verify
 :clap: Rank:
 <pre>
 <!-- rankS -->
-🥇 JavaScript ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□  75/124
-🥈     Python ■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  43/124
-🥉         Go ■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   4/124
-4️⃣        SQL ■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   2/124
+🥇 JavaScript ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□  75/125
+🥈     Python ■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  44/125
+🥉         Go ■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   4/125
+4️⃣        SQL ■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   2/125
 <!-- rankE -->
 </pre>
 
 :two_men_holding_hands: Contributors:
 <!-- contributorsS -->
-|<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/inJs"><img alt="inJs" src="https://avatars3.githubusercontent.com/u/11471397?v=4&s=60"/><br>inJs</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|
-|:-:|:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">81<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">69<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">10<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">5<br>contributions</a>|
+|<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/inJs"><img alt="inJs" src="https://avatars3.githubusercontent.com/u/11471397?v=4&s=60"/><br>inJs</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|<a href="https://github.com/zh-rocco"><img alt="zh-rocco" src="https://avatars0.githubusercontent.com/u/23545037?v=4&s=60"/><br>zh-rocco</a>|
+|:-:|:-:|:-:|:-:|:-:|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">81<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">70<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">10<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">5<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">2<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
@@ -763,7 +763,7 @@ git commit --no-verify
 |0706|[Design HashMap](https://leetcode.com/problems/design-hashmap)|[](./answer/0706)|Easy|
 |0707|[Design Linked List](https://leetcode.com/problems/design-linked-list)|[](./answer/0707)|Easy|
 |0708|[Insert into a Cyclic Sorted List](https://leetcode.com/problems/insert-into-a-cyclic-sorted-list)|[](./answer/0708)|Medium|
-|0709|[To Lower Case](https://leetcode.com/problems/to-lower-case)|[JavaScript](./answer/0709)|Easy|
+|0709|[To Lower Case](https://leetcode.com/problems/to-lower-case)|[JavaScript, Python](./answer/0709)|Easy|
 |0710|[Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist)|[](./answer/0710)|Hard|
 |0711|[Number of Distinct Islands II](https://leetcode.com/problems/number-of-distinct-islands-ii)|[](./answer/0711)|Hard|
 |0712|[Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings)|[](./answer/0712)|Medium|
