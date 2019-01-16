@@ -15,7 +15,7 @@
 |    |
 |     -- Qid
 |        |
-|         -- [Qid][username][others...?].[lang]
+|         -- [Qid].[username].[others...?].[lang]
 |        |...
  --
 ...
@@ -29,7 +29,7 @@
 ### 文件名需按照特定创建
 文件名格式为：
 ```
-[Qid][username][others...?].[lang]
+[Qid].[username].[others...?].[lang]
 ```
 - 文件名开始 `Qid` 须以不为零的数字开始
 - `username` 为作答者 GitHub 用户名。
