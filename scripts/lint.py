@@ -1,11 +1,13 @@
-#!/usr/local/bin/python3
+#!/usr/bin/python3
+# -*- coding:utf-8 -*-
 import re
 import sys
-from os import path, rename, getcwd
+import time
+from os import path, rename, system, getcwd, path
 from subprocess import getoutput
 
 LOG_FILE = './.script.log'
-FILE_TYPE_DICT = {
+LANG_DICT = {
   'js': 'JavaScript',
   'ts': 'TypeScript',
   'py': 'Python',
@@ -40,10 +42,16 @@ def lintFileName(src, dst, id):
   src = '/'.join([prefix, 'answer', id, src])
   dst = '/'.join([prefix, 'answer', id, dst])
 
+  while path.exists(dst):
+    timestamp = re.search(r'(?<=\.)\d+$', str(time.time())).group()
+    lang = re.search(r'(?<=\.)\w+$', dst).group()
+    dst = dst.replace(lang, timestamp + '.' + lang)
+
   if path.exists(src):
     rename(src, dst)
+    system('git add ' + dst)
 
-def checkFileName(id, info, type):
+def checkFileName(id, info, lang):
   if gitUserEmail == None:
     return
 
@@ -59,8 +67,8 @@ def checkFileName(id, info, type):
   elif re.search(r'^\d+(?=(\.[\w\.]+)?$)', info) and int(re.search(r'^\d+(?=(\.[\w\.]+)?$)', info).group()) == int(shortId):
     lintInfo = info.replace(shortId, '') if info.find(shortId + '.', 0) < -1 else info.replace(shortId + '.', '')
 
-  src = '.'.join([info, type])
-  dst = '.'.join(list(filter(lambda item: bool(item), [shortId, gitUserName, lintInfo, type])))
+  src = '.'.join([info, lang])
+  dst = '.'.join(list(filter(lambda item: bool(item), [shortId, gitUserName, lintInfo, lang])))
 
   lintFileName(src, dst, id)
 
@@ -72,11 +80,12 @@ while True:
     matchSplit = next(changedFiles)
     id = matchSplit.group(1)
     info = matchSplit.group(2)
-    type = matchSplit.group(3).lower()
+    lang = matchSplit.group(3).lower()
 
-    if type not in FILE_TYPE_DICT:
+    if lang not in LANG_DICT:
       continue
 
-    checkFileName(id, info, type)
+    checkFileName(id, info, lang)
   except StopIteration:
     sys.exit()
+

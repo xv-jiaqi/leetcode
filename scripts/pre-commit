@@ -1,6 +1,9 @@
 #！/usr/bash
 
-echo "\033[32m >>> Git-hook is running ...\033[0m"
+echo -e "\033[32m >>> Git-hook is running ...\033[0m"
+
+chmod +x ./scripts/lint.py
+python3 ./scripts/lint.py
 
 # sync execution
 node ./scripts/main.js
@@ -8,6 +11,8 @@ node ./scripts/main.js
 git status -s > ./scripts/.cache-log
 
 diffFile=`cat ./scripts/.cache-log | grep -Eio "\S+\.(md|MD)"`
+
+echo $diffFile
 
 if [ -n "$diffFile" ]; then
   git add $diffFile
