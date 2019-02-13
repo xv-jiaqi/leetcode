@@ -6,7 +6,7 @@ var solveNQueens = function(n) {
     let solveList = [];
     let dpsQueens = function(board,num,x) {
         num = num-1;
-        for (let i=x;i<n;i++) {
+        for (let i=x+1;i<n;i++) {
             for(let j=0;j<n;j++) {
                 if(checkQueens(board,i,j)) {
                     let newBoard = [...board];
@@ -57,6 +57,6 @@ var solveNQueens = function(n) {
         board.fill(line)
         return board;
     }
-    dpsQueens(initBoard(n),n,0);
+    dpsQueens(initBoard(n),n,-1);
     return solveList;
 };

@@ -50,7 +50,7 @@ git commit --no-verify
 <!-- contributorsS -->
 |<a href="https://github.com/linningmii"><img alt="linningmii" src="https://avatars1.githubusercontent.com/u/14858674?v=4&s=60"/><br>linningmii</a>|<a href="https://github.com/kkxujq"><img alt="kkxujq" src="https://avatars3.githubusercontent.com/u/14943597?v=4&s=60"/><br>kkxujq</a>|<a href="https://github.com/inJs"><img alt="inJs" src="https://avatars3.githubusercontent.com/u/11471397?v=4&s=60"/><br>inJs</a>|<a href="https://github.com/zy445566"><img alt="zy445566" src="https://avatars2.githubusercontent.com/u/14976489?v=4&s=60"/><br>zy445566</a>|<a href="https://github.com/zh-rocco"><img alt="zh-rocco" src="https://avatars0.githubusercontent.com/u/23545037?v=4&s=60"/><br>zh-rocco</a>|
 |:-:|:-:|:-:|:-:|:-:|
-|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">82<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">75<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">10<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">5<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">2<br>contributions</a>|
+|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">82<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">75<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">10<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">7<br>contributions</a>|<a href="https://github.com/kkxujq/leetcode/graphs/contributors">2<br>contributions</a>|
 <!-- contributorsE -->
 
 ## QUESTIONS
