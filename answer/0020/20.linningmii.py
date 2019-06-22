@@ -16,7 +16,6 @@ class Solution:
 
           # 栈不为空时右括号进入
           if pair.get(char) is not None:
-            print(char, pair[char])
             if stack[0] == pair[char]:
               stack.pop(0)
             else:
