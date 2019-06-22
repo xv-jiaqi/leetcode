@@ -3,7 +3,7 @@
 > Some [Leetcode](https://leetcode.com) algorithm and data structure answer wrote by Python/JavaScript ... :100:.
 
 <!-- stampS -->
-[![Progress](http://progressed.io/bar/10?title=done)](https://leetcode.com/problemset/all/)<!-- stampE -->
+[![Progress](http://progressed.io/bar/11?title=done)](https://leetcode.com/problemset/all/)<!-- stampE -->
 [![codebeat badge](https://codebeat.co/badges/348b71c8-c264-4483-a194-079ad959a6ed)](https://codebeat.co/projects/github-com-kkxujq-leetcode-master)
 [![GitHub issues](https://img.shields.io/github/issues/kkxujq/leetcode.svg)](https://github.com/kkxujq/leetcode/issues)
 [![GitHub stars](https://img.shields.io/github/stars/kkxujq/leetcode.svg)](https://github.com/kkxujq/leetcode/stargazers)
@@ -33,16 +33,16 @@ git commit --no-verify
 <!-- statisticsS -->
 |Easy|Medium|Hard|<h3>Total</h3>|
 |:-:|:-:|:-:|:-:|
-|48|48|10|<h3>106</h3>|
+|48|48|11|<h3>107</h3>|
 <!-- statisticsE -->
 
 :clap: Rank:
 <pre>
 <!-- rankS -->
-🥇 JavaScript ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  76/131
-🥈     Python ■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  49/131
-🥉         Go ■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   4/131
-4️⃣        SQL ■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   2/131
+🥇 JavaScript ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  77/132
+🥈     Python ■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  49/132
+🥉         Go ■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   4/132
+4️⃣        SQL ■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   2/132
 <!-- rankE -->
 </pre>
 
@@ -111,7 +111,7 @@ git commit --no-verify
 |0048|[Rotate Image](https://leetcode.com/problems/rotate-image)|[](./answer/0048)|Medium|
 |0049|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|[](./answer/0049)|Medium|
 |0050|[Pow(x, n)](https://leetcode.com/problems/powx-n)|[](./answer/0050)|Medium|
-|0051|[N-Queens](https://leetcode.com/problems/n-queens)|[](./answer/0051)|Hard|
+|0051|[N-Queens](https://leetcode.com/problems/n-queens)|[JavaScript](./answer/0051)|Hard|
 |0052|[N-Queens II](https://leetcode.com/problems/n-queens-ii)|[](./answer/0052)|Hard|
 |0053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray)|[Python, JavaScript](./answer/0053)|Easy|
 |0054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix)|[](./answer/0054)|Medium|
