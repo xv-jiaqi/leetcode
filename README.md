@@ -33,16 +33,16 @@ git commit --no-verify
 <!-- statisticsS -->
 |Easy|Medium|Hard|<h3>Total</h3>|
 |:-:|:-:|:-:|:-:|
-|47|48|10|<h3>105</h3>|
+|48|48|10|<h3>106</h3>|
 <!-- statisticsE -->
 
 :clap: Rank:
 <pre>
 <!-- rankS -->
-🥇 JavaScript ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□  75/127
-🥈     Python ■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  46/127
-🥉         Go ■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   4/127
-4️⃣        SQL ■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   2/127
+🥇 JavaScript ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  76/131
+🥈     Python ■■■■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□  49/131
+🥉         Go ■■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   4/131
+4️⃣        SQL ■■□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□   2/131
 <!-- rankE -->
 </pre>
 
@@ -66,8 +66,8 @@ git commit --no-verify
 |0003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[Python, JavaScript](./answer/0003)|Medium|
 |0004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|[Python, JavaScript](./answer/0004)|Hard|
 |0005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)|[Python, JavaScript](./answer/0005)|Medium|
-|0006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)|[JavaScript](./answer/0006)|Medium|
-|0007|[Reverse Integer](https://leetcode.com/problems/reverse-integer)|[Go, JavaScript](./answer/0007)|Easy|
+|0006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)|[Python, JavaScript](./answer/0006)|Medium|
+|0007|[Reverse Integer](https://leetcode.com/problems/reverse-integer)|[Go, Python, JavaScript](./answer/0007)|Easy|
 |0008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)|[JavaScript](./answer/0008)|Medium|
 |0009|[Palindrome Number](https://leetcode.com/problems/palindrome-number)|[Go, Python, JavaScript](./answer/0009)|Easy|
 |0010|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching)|[JavaScript](./answer/0010)|Hard|
@@ -80,7 +80,7 @@ git commit --no-verify
 |0017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[JavaScript](./answer/0017)|Medium|
 |0018|[4Sum](https://leetcode.com/problems/4sum)|[JavaScript](./answer/0018)|Medium|
 |0019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|[JavaScript](./answer/0019)|Medium|
-|0020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|[JavaScript](./answer/0020)|Easy|
+|0020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|[JavaScript, Python](./answer/0020)|Easy|
 |0021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|[JavaScript, Python](./answer/0021)|Easy|
 |0022|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[JavaScript](./answer/0022)|Medium|
 |0023|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|[JavaScript](./answer/0023)|Hard|
@@ -503,7 +503,7 @@ git commit --no-verify
 |0440|[K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order)|[](./answer/0440)|Hard|
 |0441|[Arranging Coins](https://leetcode.com/problems/arranging-coins)|[](./answer/0441)|Easy|
 |0442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array)|[](./answer/0442)|Medium|
-|0443|[String Compression](https://leetcode.com/problems/string-compression)|[](./answer/0443)|Easy|
+|0443|[String Compression](https://leetcode.com/problems/string-compression)|[JavaScript](./answer/0443)|Easy|
 |0444|[Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction)|[](./answer/0444)|Medium|
 |0445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii)|[Python](./answer/0445)|Medium|
 |0446|[Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence)|[](./answer/0446)|Hard|
